@@ -1,0 +1,30 @@
+{
+  "name": "themightyfines",
+  "version": "0.1.0",
+  "description": "Boulder County front range bluegrass and honky tonk",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp watch & eleventy --serve --watch --config=.eleventy.js",
+    "build": "gulp css & eleventy --config=.eleventy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Ollo/themightyfines.git"
+  },
+  "keywords": [
+    "bluegrass",
+    "honky-tonk",
+    "country"
+  ],
+  "author": "Joshua Ray <joshua@ollomedia.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Ollo/themightyfines/issues"
+  },
+  "homepage": "https://github.com/Ollo/themightyfines#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  }
+}
