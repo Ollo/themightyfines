@@ -10,16 +10,16 @@ We have so much fun playing live music and would love to bring our tunes and liv
 <div class="contact-form">
 <form action="https://formspree.io/mdozvqzr" method="POST">
   
-<label class='field'>Your Name:
-<input class='field-input' type="text" name="name" placeholder='John Doe'>
+<label class="field">Your Name:
+<input class="field-input" type="text" name="name" placeholder="John Doe">
 </label>
   
-<label class='field'>Your Email:
-<input class='field-input' type="email" name="_replyto" placeholder='John@doe.com'>
+<label class="field">Your Email:
+<input class="field-input" type="email" name="_replyto" placeholder="John@doe.com">
 </label>
-  
-<label class='field'> Details:
-<textarea class='field-input' name="comment" form="usrform" placeholder='Tell us about your event'></textarea>
+
+<label class="field"> Details:
+<textarea class="field-input" name="message" placeholder="Tell us about your event"></textarea>
 </label>
   
 <input type="submit" value="Send">
