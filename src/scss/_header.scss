@@ -1,0 +1,120 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 4rem;
+  
+  h1 {
+    @extend .montserrat;
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 0;
+    color: $strawberry;
+  }
+  h4 {
+    @extend .dance;
+    font-size: 2rem;
+    color: $charcoal;
+    line-height: 1;
+  }
+  h2 {
+    @extend .montserrat;
+    font-size: 4rem;
+    color: $charcoal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 0;
+  }
+}
+
+.divider {
+  border: 0;
+  border-bottom: 3px dotted $gray;
+  color: $gray;
+  margin: 0 0 4rem;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  
+  @include breakpoint('tablet') {
+    flex-direction: row;
+  }
+  
+  
+  &-toggle {
+    font-style: normal;
+    
+    @include breakpoint('tablet') {
+      display: none;
+    }
+  }
+  
+  &-list {
+    display: none;
+    list-style: none;
+    align-self: flex-start;
+    margin: 0 0 1rem ;
+    padding: 0;
+    
+    @include breakpoint('tablet') {
+      display: inline-flex;
+    }
+    
+    &.open {
+      display: block;
+    }
+  }
+  &-item {
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    background: rgba(white, 0.8);
+    border: 4px solid $bluebird;
+    margin: 0 2rem 0 0;
+    
+    &:hover {
+      background: darken(rgba(white, 0.8), 5%);
+      border: 4px solid darken($bluebird, 5%);
+    }
+    
+    a {
+      color: darken($charcoal, 20%);
+      text-shadow: 1px 1px $bluebird;
+      
+      &:hover {
+        color: $charcoal;
+        transition: all 2s ease-out;
+      }
+    }
+  }
+  .social {
+    display: inline-flex;
+    justify-content: space-around;
+    align-self: flex-end;
+
+    a {
+      display: inline-block;
+      margin-right: 4px;
+    }
+
+    img {
+      width: 5rem;
+      padding: 0.5rem;
+      background: rgba(white, 0.8);
+      border: 4px solid $bluebird;
+      
+      &:hover {
+        background: darken(rgba(white, 0.8), 5%);
+        border: 4px solid darken($bluebird, 5%);
+      }
+    }
+  }
+}

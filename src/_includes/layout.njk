@@ -6,7 +6,7 @@
     <meta name="description" content="Boulder County Bluegrass, Honky Tonk and Country Music">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@300;500;700&family=Pacifico&display=swap" rel="stylesheet">
 
-    <style>{% include "main.css" %}</style>
+    <link rel='stylesheet' href='/main.css' />
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
     <title>{{title}} | Brandywine and the Mighty Fines</title>
   </head>
@@ -14,8 +14,9 @@
     <div class="wrapper">
       {% include "logo.njk" %}
       <hr class="divider" />
-      <nav class='navigation'>
-        <ul class='nav-list'>
+      <nav class='nav'>
+        <i class='nav-toggle' onClick="toggleMenu()">&#10006;</i>
+        <ul id='menu' class='nav-list'>
           <li class='nav-item'>
             <a href='/'>Home</a>
           </li>
@@ -23,7 +24,7 @@
             <a href="/about">About Us</a>
           </li>
           <li class='nav-item'>
-            <a href='/calendar'>Calendar</a>
+            <a href='/shows'>Shows</a>
           </li>
           <li class='nav-item'>
             <a href='/contact'>Contact</a>
@@ -43,7 +44,20 @@
       </main>
     </div>
     <footer class='site-footer'>
-      <small>&copy; <script>document.write(new Date().getFullYear())</script> Brandywine and the Mighty Fines</small>
+      <small id='copyright'></small>
     </footer>
+    <script type='text/javascript'>
+      
+      document.getElementById('copyright')
+        .innerHTML=`
+          &copy; ${new Date().getFullYear()}
+          Brandywine and the Mighty Fines
+        `
+        
+      const toggleMenu = () => {
+        const menu = document.getElementById('menu')
+        menu.classList.toggle('open')
+      }
+    </script>
   </body>
 </html>
