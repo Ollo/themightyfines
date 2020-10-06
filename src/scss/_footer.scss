@@ -2,9 +2,9 @@
   max-width: 90rem;
   margin: 0 auto;
   text-align: right;
-}
-
-#copyright {
-  display: block;
-  padding: 1rem 0 2rem;
+  padding: 1rem 4rem 2rem;
+  
+  @include breakpoint('desktop') {
+    padding: 1rem 0 2rem;
+  }
 }

@@ -10,7 +10,13 @@ title: Brandywine and the Mighty Fines | Event Calendar
 {% for show in shows %}
 <article class='show'>
   <h2>{{ show.date }}</h2>
-  <p>{{ show.location }}</p>
+  <a href='{{ show.link}}'>
+    <p>{{ show.location }}</p>
+  </a>
   <small>{{ show.time }}</small>
+  
 </article>
+
+---
+
 {% endfor %}
