@@ -1,10 +1,39 @@
 .site-footer {
   max-width: 90rem;
   margin: 0 auto;
-  text-align: right;
-  padding: 1rem 4rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
   
   @include breakpoint('desktop') {
-    padding: 1rem 0 2rem;
+   
+  }
+}
+
+.social {
+  display: inline-flex;
+  justify-content: space-around;
+  align-self: flex-start;
+  
+  @include breakpoint('tablet') {
+    
+  }
+
+  a {
+    display: inline-block;
+    margin-right: 4px;
+  }
+
+  img {
+    width: 5rem;
+    padding: 0.5rem;
+    background: rgba(white, 0.8);
+    border: 4px solid $bluebird;
+    
+    &:hover {
+      background: darken(rgba(white, 0.8), 5%);
+      border: 4px solid darken($bluebird, 5%);
+    }
   }
 }

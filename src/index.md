@@ -3,7 +3,7 @@ layout: layout.njk
 title: Brandywine and the Mighty Fines
 ---
 
-# Welcome Music Lovers,
+# Welcome Music Lovers
 to the online home of Brandywine and the Mighty Fines.
 
 <img src='./images/themightyfines.jpg' class='profile'/> 
