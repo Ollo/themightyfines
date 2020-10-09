@@ -34,7 +34,7 @@
   border: 0;
   border-bottom: 3px dotted $gray;
   color: $gray;
-  margin: 0 0 4rem;
+  margin: 0 0 2rem;
 }
 
 .nav {
@@ -53,12 +53,12 @@
     font-style: normal;
     
     @include breakpoint('tablet') {
-      display: none;
+      // display: none;
     }
   }
   
   &-list {
-    display: none;
+    display: inline-flex;
     list-style: none;
     align-self: flex-start;
     margin: 0 0 1rem ;
@@ -76,13 +76,13 @@
     padding: 1rem 2rem;
     font-size: 2rem;
     letter-spacing: 2px;
-    background: rgba(white, 0.8);
-    border: 4px solid $bluebird;
+    // background: rgba(white, 0.8);
+    // border: 4px solid $bluebird;
     margin: 0 2rem 0 0;
     
     &:hover {
-      background: darken(rgba(white, 0.8), 5%);
-      border: 4px solid darken($bluebird, 5%);
+      // background: darken(rgba(white, 0.8), 5%);
+      // border: 4px solid darken($bluebird, 5%);
     }
     
     a {

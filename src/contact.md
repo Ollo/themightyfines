@@ -3,9 +3,9 @@ layout: layout.njk
 title: Brandywine and the Mighty Fines | Contact for Booking
 ---
 
-# Want us to play your event or bar?
+# Want us to play at your event or venue?
 
-We have so much fun playing live music and would love to bring our tunes and live energy to your venue or special event. 
+We have so much fun playing live music and would love to bring our tunes to you. 
 
 <div class="contact-form">
 <form action="https://formspree.io/mdozvqzr" method="POST">

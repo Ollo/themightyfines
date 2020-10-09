@@ -7,11 +7,11 @@ title: Brandywine and the Mighty Fines | Meet the Mighty Fines
 
 Formed in the fall of 2019, Brandywine and the Mighty Fines are a lively five piece bluegrass band out of Boulder, Colorado, made up of Brandy Ray (mandolin, vocals), Joshua Ray (guitar, vocals), Matthew Schexnyder (guitar, vocals), Emerson Lamm (banjo), and Lena Dow (bass, vocals). 
 
-The story of the Mighty Fines began when Josh bought his wife, Brandy, a mandolin for their anniversary. While playing and performing together at jams and ensemble classes in the Boulder area, Brandy and Joshua met Matthew, Lena, and Emerson. Through a common love of classic bluegrass and country music, pickin’ on porches in the summer, and scratching cats behind the ears with finger picks on, the Mighty Fines were formed. Brandywine and the Mighty Fines bring an enthusiastic approach to their music, playing both original songs and traditional bluegrass, honky tonk, and Americana classics.
+The story of the Mighty Fines began when Josh bought his wife, Brandy, a mandolin for their anniversary. While playing and performing together at jams and ensemble classes in the Boulder area, Brandy and Joshua met Matthew, Lena, and Emerson. Through a common love of classic bluegrass and country music and pickin’ on porches, the Mighty Fines were formed. Brandywine and the Mighty Fines bring an enthusiastic approach to their music, playing both original songs and traditional bluegrass, honky tonk, and Americana tunes.
 
 ## Brandy Ray ~ Mandolin / Vocals
 
-Singer, songwriter, and mandolinist, Brandy Ray, grew up hearing old country and roots music in her home state of Oklahoma, but it wasn’t until hearing Yonder Mountain String Band at Austin City Limits in 2003, that she realized bluegrass could be such a boot stompin’ good time! Brandy describes her musical inspirations as stretching from Patsy Cline to The Kinks. She loves playing music because it makes people happy and brings them together.
+Singer, songwriter, and mandolinist, Brandy Ray, grew up hearing old country and roots music in her home state of Oklahoma, but it wasn’t until hearing Yonder Mountain String Band in 2003, that she realized bluegrass could be such a boot stomping good time. You can find her listening to a wide range of music. Some of her favorite artists include Tom Petty, Dolly Parton, Doc Watson, and The Kinks. She loves playing music because it makes people happy.
 
 ## Emerson Lamm ~ Banjo
 
@@ -19,7 +19,7 @@ Emerson’s journey into the world of bluegrass began after taking inspiration f
 
 ## Joshua Ray ~ Guitar / Vocals
 
-After diving into music at the age of 13, Joshua had a broad history of interests across many genres of music from indie rock to ska to jazz. Now focused on bluegrass flat picking and traditional and old time music, he joins his lovely wife Brandy to bring fun tunes to the Front Range and beyond. Between writing songs and perfecting the perfect guitar run, Joshua is an excellent brewer, gaining inspiration for recipes from traditional bluegrass and country lyrics. When he’s not pickin’ a guitar, he’s brewing at the Shady Grove homestead while listening to the Grateful Dead.
+After diving into guitar at the age of 13, Joshua developed a broad interest in music from indie rock to ska and jazz. Now focused on bluegrass flat picking and traditional and old time music, he is influenced by artists such as Doc Watson, John Hartford, and Bryan Sutton. Joshua is also the resident brewer, gaining inspiration for recipes from traditional bluegrass and country lyrics. When he’s not pickin', he’s probably brewing at the Shady Grove homestead while listening to the Grateful Dead.
 
 ## Lena Dow ~ Upright Bass / Vocals
 

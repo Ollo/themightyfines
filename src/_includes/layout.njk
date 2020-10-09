@@ -15,7 +15,7 @@
       {% include "logo.njk" %}
       <hr class="divider" />
       <nav class='nav'>
-        <i class='nav-toggle' onClick="toggleMenu()">&#10006;</i>
+        {# <i class='nav-toggle' onClick="toggleMenu()">&#10006;</i> #}
         <ul id='menu' class='nav-list'>
           <li class='nav-item'>
             <a href='/'>Home</a>
@@ -55,8 +55,8 @@
         `
         
       const toggleMenu = () => {
-        const menu = document.getElementById('menu')
-        menu.classList.toggle('open')
+        // const menu = document.getElementById('menu')
+        // menu.classList.toggle('open')
       }
     </script>
   </body>
