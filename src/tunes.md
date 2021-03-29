@@ -5,8 +5,18 @@ title: Brandywine and the Mighty Fines | Tunes
 
 # Tunes
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tYhU-3aigUg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<div class="video-container">
+
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/tYhU-3aigUg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+
+<div class="video-container">
+
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/IFCAH30OmzE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
 
 ### Bandcamp
 

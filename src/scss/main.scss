@@ -8,7 +8,7 @@
 @import '_footer.scss';
 @import '_header.scss';
 
-.pacifico { 
+.pacifico {
   font-family: 'Pacifico', cursive;
 }
 .montserrat {
@@ -29,36 +29,52 @@
 .contact-form {
   background: white;
   padding: 4rem;
-  
+
   input, textarea {
     border: 4px solid $bluebird;
     padding: 8px;
     font-size: 1.8rem;
     color: $charcoal;
-    
+
     &:focus, &:active {
       outline: 0;
       border: 4px solid darken($bluebird, 10%);
     }
   }
-  
+
   .field {
     display: flex;
     flex-direction: column;
   }
-  
+
   input[type='submit'] {
     background: $strawberry;
     padding: 1.5rem 4rem;
     color: white;
     border: 4px solid darken($strawberry, 10%);
     cursor: pointer;
-    
+
     &:hover {
       color: darken(white, 5%);
       background: darken($strawberry, 10%);
       border: 4px solid darken($strawberry, 20%);
     }
-    
+
+  }
+}
+
+.video-container {
+  position: relative;
+  height: 0;
+  margin-bottom: 2rem;
+  padding: 0 2rem 56.25%; /* 16:9 */
+
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 }
