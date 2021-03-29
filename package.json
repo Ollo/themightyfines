@@ -6,7 +6,7 @@
   "scripts": {
     "start": "gulp watch & eleventy --serve --watch --config=.eleventy.js",
     "prestart": "npm run build",
-    "build": "gulp css & eleventy --config=.eleventy.js"
+    "build": "gulp css && eleventy --config=.eleventy.js"
   },
   "repository": {
     "type": "git",
