@@ -78,3 +78,16 @@
     height: 100%;
   }
 }
+
+.show {
+  text-align: center;
+  padding: 2rem;
+  border: 2px solid $bluebird;
+  a {
+    color: darken($bluebird, 40%);
+  }
+  &.history {
+    background-color: rgba($strawberry, 0.2);
+    border: 2px solid $strawberry;
+  }
+}

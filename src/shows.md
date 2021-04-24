@@ -3,18 +3,26 @@ layout: layout.njk
 title: Brandywine and the Mighty Fines | Event Calendar
 ---
 
-# Upcoming shows 
+# Upcoming shows
 
-{{ collections.shows | log }}
+{% for show in shows | reverse %}
 
-{% for show in shows %}
+{% if show.active %}
+
 <article class='show'>
+
+{% else %}
+
+<article class='show history'>
+
+{% endif %}
+
   <h2>{{ show.date }}</h2>
-  <a href='{{ show.link}}'>
+  <a href='{{ show.link }}'>
     <p>{{ show.location }}</p>
   </a>
   <small>{{ show.time }}</small>
-  
+
 </article>
 
 ---

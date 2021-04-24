@@ -4,13 +4,36 @@ const shows = [
     location: "Front Range Brewing Company",
     time: "6:30pm - 8:30pm ",
     link: "https://www.frontrangebrewingcompany.com/lafayettebreweryevents",
+    active: false,
   },
   {
     date: "October 30th, 2020",
     location: "VisionQuest Brewing Company",
     time: "6pm - 8pm",
-    link: "https://www.facebook.com/visionquestbrewery/"
-  }
+    link: "https://www.facebook.com/visionquestbrewery/",
+    active: false,
+  },
+  {
+    date: "April 3rd, 2021",
+    location: "Private Garden Party",
+    time: "5pm - 8pm",
+    link: "/",
+    active: false,
+  },
+  {
+    date: "May 8th, 2021",
+    location: "Kettle and Spoke",
+    time: "5pm - 8pm",
+    link: "https://www.facebook.com/events/3740126042707909/",
+    active: true,
+  },
+  {
+    date: "June 5th, 2021",
+    location: "VisionQuest Brewing Company",
+    time: "5pm - 8pm",
+    link: "http://www.visionquestbrewing.com/events/brandywine-and-the-mighty-fines-2",
+    active: true,
+  },
 ]
 
 module.exports = shows
