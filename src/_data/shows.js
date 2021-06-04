@@ -25,7 +25,7 @@ const shows = [
     location: "Kettle and Spoke",
     time: "5pm - 8pm",
     link: "https://www.facebook.com/events/3740126042707909/",
-    active: true,
+    active: false,
   },
   {
     date: "June 5th, 2021",
@@ -34,6 +34,20 @@ const shows = [
     link: "http://www.visionquestbrewing.com/events/brandywine-and-the-mighty-fines-2",
     active: true,
   },
+  {
+    date: "June 18th, 2021",
+    location: "Cellar West Artisan Ales",
+    time: "7pm - 9pm",
+    link: "https://www.cellarwest.com/sunset-concerts",
+    active: true,
+  },
+  {
+    date: "August 28th, 2021",
+    location: "Kettle and Spoke",
+    time: "TBA",
+    link: "https://www.facebook.com/KettleandSpoke/events/",
+    active: true,
+  }
 ]
 
 module.exports = shows
