@@ -32,7 +32,7 @@ const shows = [
     location: "VisionQuest Brewing Company",
     time: "5pm - 8pm",
     link: "http://www.visionquestbrewing.com/events/brandywine-and-the-mighty-fines-2",
-    active: true,
+    active: false,
   },
   {
     date: "June 18th, 2021",
