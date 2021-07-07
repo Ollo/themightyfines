@@ -35,7 +35,7 @@ const shows = [
     active: false,
   },
   {
-    date: "June 18th, 2021",
+    date: "August 13th, 2021",
     location: "Cellar West Artisan Ales",
     time: "7pm - 9pm",
     link: "https://www.cellarwest.com/sunset-concerts",
@@ -44,7 +44,7 @@ const shows = [
   {
     date: "August 28th, 2021",
     location: "Kettle and Spoke",
-    time: "TBA",
+    time: "6pm - 9pm",
     link: "https://www.facebook.com/KettleandSpoke/events/",
     active: true,
   }
