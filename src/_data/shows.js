@@ -39,15 +39,37 @@ const shows = [
     location: "Cellar West Artisan Ales",
     time: "7pm - 9pm",
     link: "https://www.cellarwest.com/sunset-concerts",
-    active: true,
+    active: false,
   },
   {
     date: "August 28th, 2021",
     location: "Kettle and Spoke",
     time: "6pm - 9pm",
     link: "https://www.facebook.com/KettleandSpoke/events/",
+    active: false,
+  },
+  {
+    date: "September 18th, 2021",
+    location: "Howlin Wind Brewing and Blending",
+    time: "3pm - 6pm",
+    link: "https://www.facebook.com/events/188121240053869",
+    active: false,
+  },
+  {
+    date: "October 23rd, 2021",
+    location: "Kettle and Spoke",
+    time: "6pm - 9pm",
+    link: "https://www.facebook.com/KettleandSpoke/events",
+    active: true,
+  },
+  {
+    date: "November 6th, 2021",
+    location: "Beyond the Mountain Brewing Company",
+    time: "6pm - 9pm",
+    link: "https://www.facebook.com/beyondthemountainbrewingco/events",
     active: true,
   }
+
 ]
 
 module.exports = shows
