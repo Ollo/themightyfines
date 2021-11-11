@@ -11,7 +11,7 @@
     <title>{{title}} | Brandywine and the Mighty Fines</title>
   </head>
   <body>
-    <div class="wrapper">
+    {# <div class="wrapper">
       {% include "logo.njk" %}
       <hr class="divider" />
       <nav class='nav'>
@@ -55,6 +55,17 @@
           &copy; ${new Date().getFullYear()}
           Brandywine and the Mighty Fines
         `
-    </script>
+    </script> #}
+
+    <main class='site-container'>
+      <figure class='logo'>
+        <img src='images/BW&TMF-LOGO-ID.png' />
+      </figure>
+      <section class='bio'>
+        <p>A lively cross between honky-tonk inspired bluegrass (“tonkgrass”) and sentimental Americana, Brandywine and the Mighty Fines connects to audiences through thoughtful songwriting and clever mashups. Playing a mix of originals and classics from the Dead to Dolly, the Mighty Fines will find you shuffling your feet and daydreaming of other times and places.</p>
+
+        <p>Born out of small town America and coming together through the Foothills, Brandy Ray (vocals, lyrics, mandolin), Matthew Schexnyder (vocals, lyrics, guitar), Joshua Ray (vocals, lyrics, guitar), Emerson Lamm (banjo, dobro), and Lena Dow (vocals, bass) charm listeners with their authentic presence, heartfelt connection, and vocal driven bluegrass.</p>
+      </section>
+    </main>
   </body>
 </html>

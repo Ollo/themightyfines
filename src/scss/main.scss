@@ -91,3 +91,18 @@
     border: 2px solid $strawberry;
   }
 }
+
+.site-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  .logo {
+    margin: 0;
+    padding: 0;
+    max-width: 45vw;
+    grid-column: 2 / span 2;
+  }
+  .bio {
+    grid-column: 2 / span 2;
+  }
+}
