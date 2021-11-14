@@ -91,6 +91,10 @@
       max-width: 40vw;
       display: block;
       justify-self: center;
+
+      img {
+        width: 100%;
+      }
     }
   }
 
@@ -119,6 +123,31 @@
         a {
           padding: 0 3rem;
           text-decoration: none;
+        }
+      }
+    }
+  }
+
+  footer {
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 2rem 1rem;
+    max-height: 6vh;
+    background: rgba(white, 0.9);
+
+    .logo {
+      max-width: 10rem;
+    }
+    .social {
+      display: flex;
+      a {
+        display: inline-block;
+        img {
+          width: 5rem;
+
         }
       }
     }

@@ -61,9 +61,13 @@
     </script> #}
 
     <main class='site-container'>
+
       <figure class='hero'>
-        <img class='logo' src='images/BW&TMF-LOGO-ID.png' />
+        <a href='/' class='logo'>
+          <img src='images/BW&TMF-LOGO-ID.png' />
+        </a>
       </figure>
+
       <nav>
         <ul>
           <li><a href="#bio">About</a> | </li>
@@ -72,66 +76,94 @@
           <li><a href="#book-us">Book Us</a></li>
         </ul>
       </nav>
-      <section id='bio' class='panel'>
-        <div class='bio-text'>
-          <p>A lively cross between honky-tonk inspired bluegrass (“tonkgrass”) and sentimental Americana, Brandywine and the Mighty Fines connects to audiences through thoughtful songwriting and clever mashups. Playing a mix of originals and classics from the Dead to Dolly, the Mighty Fines will find you shuffling your feet and daydreaming of other times and places.</p>
 
-          <p>Born out of small town America and coming together through the Foothills, Brandy Ray (vocals, lyrics, mandolin), Matthew Schexnyder (vocals, lyrics, guitar), Joshua Ray (vocals, lyrics, guitar), Emerson Lamm (banjo, dobro), and Lena Dow (vocals, bass) charm listeners with their authentic presence, heartfelt connection, and vocal driven bluegrass.</p>
-        </div>
-      </section>
+      <div>
+        <section id='bio' class='panel'>
+          <div class='bio-text'>
+            <p>A lively cross between honky-tonk inspired bluegrass (“tonkgrass”) and sentimental Americana, Brandywine and the Mighty Fines connects to audiences through thoughtful songwriting and clever mashups. Playing a mix of originals and classics from the Dead to Dolly, the Mighty Fines will find you shuffling your feet and daydreaming of other times and places.</p>
 
-      <section id="shows" class='panel'>
-        <h1>Upcoming Shows</h1>
+            <p>Born out of small town America and coming together through the Foothills, Brandy Ray (vocals, lyrics, mandolin), Matthew Schexnyder (vocals, lyrics, guitar), Joshua Ray (vocals, lyrics, guitar), Emerson Lamm (banjo, dobro), and Lena Dow (vocals, bass) charm listeners with their authentic presence, heartfelt connection, and vocal driven bluegrass.</p>
+          </div>
+        </section>
 
-        {% for show in shows | reverse %}
+        <section id="shows" class='panel'>
+          <h1>Upcoming Shows</h1>
 
-        {% if show.active %}
+          {% for show in shows | reverse %}
 
-        <article class='show'>
+          {% if show.active %}
 
-        {% else %}
+          <article class='show'>
 
-        <article class='show history'>
+          {% else %}
 
-        {% endif %}
+          <article class='show history'>
 
-          <h2>{{ show.date }}</h2>
-          <a href='{{ show.link }}'>
-            <p>{{ show.location }}</p>
-          </a>
-          <small>{{ show.time }}</small>
+          {% endif %}
 
-        </article>
+            <h2>{{ show.date }}</h2>
+            <a href='{{ show.link }}'>
+              <p>{{ show.location }}</p>
+            </a>
+            <small>{{ show.time }}</small>
 
-        {% endfor %}
+          </article>
 
-      </section>
+          {% endfor %}
 
-      <section id="media" class="panel">
-        <h1>Media</h1>
-      </section>
-      <section id="book-us" class='panel'>
-        <h1>Book Us</h1>
-        <div class="contact-form">
-        <form action="https://formspree.io/mdozvqzr" method="POST">
+        </section>
 
-        <label class="field">Your Name:
-        <input class="field-input" type="text" name="name" placeholder="John Doe">
-        </label>
+        <section id="media" class="panel">
+          <h1>Media</h1>
+        </section>
 
-        <label class="field">Your Email:
-        <input class="field-input" type="email" name="_replyto" placeholder="John@doe.com">
-        </label>
+        <section id="book-us" class='panel'>
+          <h1>Book Us</h1>
+          <div class="contact-form">
+          <form action="https://formspree.io/mdozvqzr" method="POST">
 
-        <label class="field"> Details:
-        <textarea class="field-input" name="message" placeholder="Tell us about your event"></textarea>
-        </label>
+          <label class="field">Your Name:
+          <input class="field-input" type="text" name="name" placeholder="John Doe">
+          </label>
 
-        <input type="submit" value="Send">
-        </form>
-        </div>
-      </section>
+          <label class="field">Your Email:
+          <input class="field-input" type="email" name="_replyto" placeholder="John@doe.com">
+          </label>
 
+          <label class="field"> Details:
+          <textarea class="field-input" name="message" placeholder="Tell us about your event"></textarea>
+          </label>
+
+          <input type="submit" value="Send">
+          </form>
+          </div>
+        </section>
+
+        <footer>
+          <figure>
+            <a href='/'>
+              <img class='logo' src='images/BW&TMF-LOGO-ID.png' />
+            </a>
+          </figure>
+          <small id='copyright'></small>
+          <div class="social">
+            <a href="https://www.instagram.com/brandywineandthemightyfines/" target="_blank" rel="noopener" title="Instagram">
+              <img src='/images/instagram.png' alt='follow us on instagram'/>
+            </a>
+            <a href="https://www.facebook.com/theMightyFines/"    target="_blank" rel="noopener" title="Facebook">
+              <img src='/images/facebook.png' alt='follow up on facebook' />
+            </a>
+          </div>
+        </footer>
+      </div>
     </main>
+    <script type='text/javascript'>
+
+      document.getElementById('copyright')
+        .innerHTML=`
+          &copy; ${new Date().getFullYear()}
+          Brandywine and the Mighty Fines
+        `
+    </script>
   </body>
 </html>
