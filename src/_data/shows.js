@@ -89,7 +89,7 @@ const shows = [
     location: "Boulder, CO",
     name: "The Fox Theater",
     time: "Doors @ 8:30pm",
-    link: "https://www.facebook.com/foxtheatreboulder/posts/10160019921082053",
+    link: "https://www.axs.com/events/417573/jane-and-matthews-with-graham-good-the-painters-phantom-phare-brandy-tickets?skin=foxtheatre",
     active: true,
     poster: 'images/posters/2022-2-19.jpg'
   }
