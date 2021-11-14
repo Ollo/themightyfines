@@ -1,43 +1,63 @@
 @import '_colors.scss';
-@import '_utilities.scss';
 @import '_responsive.scss';
-
 @import '_base.scss';
 
+@mixin imgBordered() {
+  box-shadow: 2px 4px 4px $charcoal;
+  border: 4px solid white;
+}
+
+%button {
+  display: block;
+  background: $orange;
+  margin-top: 2rem;
+  padding: 1.5rem 4rem;
+  color: $yellow;
+  border: 4px solid $dark-orange;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  &:hover {
+    color: darken(white, 5%);
+    background: darken($orange, 10%);
+    border: 4px solid darken($dark-orange, 20%);
+  }
+
+  @include breakpoint('tablet') {
+    display: inline-block;
+  }
+}
+
+.button {
+  @extend %button;
+}
 .contact-form {
   background: white;
   padding: 4rem;
 
   input, textarea {
-    border: 4px solid $bluebird;
-    padding: 8px;
+    border: 4px solid $charcoal;
+    padding: 1rem;
     font-size: 1.8rem;
     color: $charcoal;
 
     &:focus, &:active {
       outline: 0;
-      border: 4px solid darken($bluebird, 10%);
+      border: 4px solid darken($charcoal, 10%);
+    }
+    &::placeholder {
+      color: $orange;
     }
   }
 
   .field {
     display: flex;
     flex-direction: column;
+    margin-top: 2rem;
   }
 
   input[type='submit'] {
-    background: $strawberry;
-    padding: 1.5rem 4rem;
-    color: white;
-    border: 4px solid darken($strawberry, 10%);
-    cursor: pointer;
-
-    &:hover {
-      color: darken(white, 5%);
-      background: darken($strawberry, 10%);
-      border: 4px solid darken($strawberry, 20%);
-    }
-
+    @extend %button;
   }
 }
 
@@ -57,15 +77,32 @@
 }
 
 .show {
-  width: 60vw;
+  max-width: 60vw;
   text-align: center;
+  @include breakpoint('desktop') {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: left;
+  }
   padding: 2rem;
   margin-bottom: 2rem;
   border: 2px solid $charcoal;
   background: rgba(white, 0.6);
-  a {
-    color: darken($bluebird, 40%);
+
+  .poster {
+    grid-column: 1 / span 2;
+    img {
+      width: 100%;
+    }
   }
+
+  .details {
+    grid-column: 3 / span 4;
+    a {
+      color: $dark-orange;
+    }
+  }
+
   &.history {
     color: white;
     background-color: rgba($charcoal, 0.2);
@@ -74,23 +111,36 @@
 }
 
 .site-container {
-  background-image: url('/images/playing.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: 50%;
+  background: url('images/bg-mobile.jpg') no-repeat;
+  background-size: contain;
+  background-position-y: 100px;
+
+  @include breakpoint('tablet') {
+    background: url('/images/playing.jpg') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
 
   .hero {
-    height: 91vh;
     line-height: 0;
     display: grid;
     margin: 0;
     padding: 0;
     vertical-align: top;
+    height: 75vh;
+
+    @include breakpoint('tablet') {
+      height: 91vh;
+    }
 
     .logo {
-      max-width: 40vw;
       display: block;
       justify-self: center;
+
+      @include breakpoint('tablet') {
+        max-width: 40vw;
+      }
 
       img {
         width: 100%;
@@ -102,27 +152,35 @@
     position: sticky;
     top: 0;
     margin-top: -1.6rem;
+    z-index: 1000;
 
     ul {
       width: 100%;
       display: flex;
       justify-content: center;
       box-sizing: border-box;
-      padding: 20px;
       background: rgba(white, 0.9);
       box-shadow:  0.5rem 0.5rem 0.5rem rgba(gray, 0.6);
       text-shadow: 1px 1px rgba($charcoal, 0.2);
+      padding: 2rem 0;
+      @include breakpoint('tablet') {
+        padding: 2rem;
+      }
 
       li {
         list-style: none;
-        font-size: 3rem;
         font-weight: bold;
         color: darken($charcoal, 10%);
-
+        @include breakpoint('tablet') {
+          font-size: 3rem;
+        }
 
         a {
-          padding: 0 3rem;
+          padding: 0 0.5rem;
           text-decoration: none;
+          @include breakpoint('tablet') {
+            padding: 0 3rem;
+          }
         }
       }
     }
@@ -132,14 +190,18 @@
     position: sticky;
     bottom: 0;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 2rem 1rem;
-    max-height: 6vh;
     background: rgba(white, 0.9);
+    @include breakpoint('tablet') {
+      padding: 2rem 2rem 1rem;
+      flex-direction: row;
+      max-height: 6vh;
+    }
 
     .logo {
-      max-width: 10rem;
+      max-width: 15rem;
     }
     .social {
       display: flex;
@@ -153,7 +215,7 @@
     }
   }
   .panel {
-    height: 100vh;
+    min-height: 90vh;
     display: grid;
     place-items: center;
   }
@@ -176,8 +238,25 @@
     padding: 5rem;
   }
 
-  #book-us {
-
+  #media {
+    .grid {
+      margin: 4rem 2rem;
+      width: 80vw;
+      @include breakpoint('desktop') {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 2rem;
+      }
+    }
+    .videos {
+      grid-column: 1 / span 3;
+    }
+    .playlist {
+      grid-column: 4 / span 1;
+      grid-row: 1;
+    }
+    .fb-page {
+      margin-top: 2rem;
+    }
   }
-
 }

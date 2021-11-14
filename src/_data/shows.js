@@ -50,38 +50,48 @@ const shows = [
   // },
   {
     date: "September 18th, 2021",
-    location: "Howlin Wind Brewing and Blending",
+    location: "Rollinsville, CO",
+    name: "Howlin Wind Brewing and Blending",
     time: "3pm - 6pm",
     link: "https://www.facebook.com/events/188121240053869",
     active: false,
+    poster: 'images/posters/placeholder.jpg'
   },
   {
     date: "October 31st",
-    location: "Grateful Halloween ~ Kettle and Spoke",
+    location: "Boulder, CO",
+    name: "Grateful Halloween ~ Kettle and Spoke",
     time: "5pm - 8:30pm",
     link: "https://www.facebook.com/events/178809114435692",
     active: false,
+    poster: 'images/posters/2021-10-31.jpg'
   },
   {
     date: "November 6th, 2021",
-    location: "Beyond the Mountain Brewing Company",
+    location: "Boulder, CO",
+    name: "Beyond the Mountain Brewing Company",
     time: "6pm - 9pm",
     link: "https://www.facebook.com/events/309177470864776",
     active: false,
+    poster: 'images/posters/2021-11-3.jpg'
   },
   {
     date: "January 22nd, 2022",
-    location: "Bloodies & Bluegrass @ Mile High Spirits",
+    location: "Denver, CO",
+    name: "Bloodies & Bluegrass @ Mile High Spirits",
     time: "2pm - 6pm",
     link: "",
     active: true,
+    poster: 'images/posters/placeholder.jpg'
   },
   {
     date: "February 19th, 2022",
-    location: "Fox Theater",
+    location: "Boulder, CO",
+    name: "The Fox Theater",
     time: "Doors @ 8:30pm",
     link: "https://www.facebook.com/foxtheatreboulder/posts/10160019921082053",
     active: true,
+    poster: 'images/posters/2022-2-19.jpg'
   }
 
 
