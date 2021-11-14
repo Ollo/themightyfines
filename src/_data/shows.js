@@ -80,7 +80,7 @@ const shows = [
     location: "Denver, CO",
     name: "Bloodies & Bluegrass @ Mile High Spirits",
     time: "2pm - 6pm",
-    link: "",
+    link: "/",
     active: true,
     poster: 'images/posters/placeholder.jpg'
   },
