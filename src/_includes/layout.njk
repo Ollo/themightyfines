@@ -3,8 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Boulder County Bluegrass, Honky Tonk and Country Music">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@300;500;700&family=Pacifico&display=swap" rel="stylesheet">
+    <meta name="description" content="Boulder County Bluegrass, Country and Honky Tonk String band">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+
 
     <link rel='stylesheet' href='/main.css' />
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
@@ -58,14 +61,77 @@
     </script> #}
 
     <main class='site-container'>
-      <figure class='logo'>
-        <img src='images/BW&TMF-LOGO-ID.png' />
+      <figure class='hero'>
+        <img class='logo' src='images/BW&TMF-LOGO-ID.png' />
       </figure>
-      <section class='bio'>
-        <p>A lively cross between honky-tonk inspired bluegrass (“tonkgrass”) and sentimental Americana, Brandywine and the Mighty Fines connects to audiences through thoughtful songwriting and clever mashups. Playing a mix of originals and classics from the Dead to Dolly, the Mighty Fines will find you shuffling your feet and daydreaming of other times and places.</p>
+      <nav>
+        <ul>
+          <li><a href="#bio">About</a> | </li>
+          <li><a href="#shows">Upcoming Shows</a> | </li>
+          <li><a href="#media">Media</a> | </li>
+          <li><a href="#book-us">Book Us</a></li>
+        </ul>
+      </nav>
+      <section id='bio' class='panel'>
+        <div class='bio-text'>
+          <p>A lively cross between honky-tonk inspired bluegrass (“tonkgrass”) and sentimental Americana, Brandywine and the Mighty Fines connects to audiences through thoughtful songwriting and clever mashups. Playing a mix of originals and classics from the Dead to Dolly, the Mighty Fines will find you shuffling your feet and daydreaming of other times and places.</p>
 
-        <p>Born out of small town America and coming together through the Foothills, Brandy Ray (vocals, lyrics, mandolin), Matthew Schexnyder (vocals, lyrics, guitar), Joshua Ray (vocals, lyrics, guitar), Emerson Lamm (banjo, dobro), and Lena Dow (vocals, bass) charm listeners with their authentic presence, heartfelt connection, and vocal driven bluegrass.</p>
+          <p>Born out of small town America and coming together through the Foothills, Brandy Ray (vocals, lyrics, mandolin), Matthew Schexnyder (vocals, lyrics, guitar), Joshua Ray (vocals, lyrics, guitar), Emerson Lamm (banjo, dobro), and Lena Dow (vocals, bass) charm listeners with their authentic presence, heartfelt connection, and vocal driven bluegrass.</p>
+        </div>
       </section>
+
+      <section id="shows" class='panel'>
+        <h1>Upcoming Shows</h1>
+
+        {% for show in shows | reverse %}
+
+        {% if show.active %}
+
+        <article class='show'>
+
+        {% else %}
+
+        <article class='show history'>
+
+        {% endif %}
+
+          <h2>{{ show.date }}</h2>
+          <a href='{{ show.link }}'>
+            <p>{{ show.location }}</p>
+          </a>
+          <small>{{ show.time }}</small>
+
+        </article>
+
+        {% endfor %}
+
+      </section>
+
+      <section id="media" class="panel">
+        <h1>Media</h1>
+      </section>
+      <section id="book-us" class='panel'>
+        <h1>Book Us</h1>
+        <div class="contact-form">
+        <form action="https://formspree.io/mdozvqzr" method="POST">
+
+        <label class="field">Your Name:
+        <input class="field-input" type="text" name="name" placeholder="John Doe">
+        </label>
+
+        <label class="field">Your Email:
+        <input class="field-input" type="email" name="_replyto" placeholder="John@doe.com">
+        </label>
+
+        <label class="field"> Details:
+        <textarea class="field-input" name="message" placeholder="Tell us about your event"></textarea>
+        </label>
+
+        <input type="submit" value="Send">
+        </form>
+        </div>
+      </section>
+
     </main>
   </body>
 </html>

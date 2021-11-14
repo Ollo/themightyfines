@@ -4,28 +4,6 @@
 
 @import '_base.scss';
 
-// Components
-@import '_footer.scss';
-@import '_header.scss';
-
-.pacifico {
-  font-family: 'Pacifico', cursive;
-}
-.montserrat {
-  font-family: 'Montserrat', sans-serif;
-}
-.dance {
-  font-family: 'Dancing Script', cursive;
-}
-
-.content {
-  padding: 0 2rem 2rem;
-}
-
-.profile {
-  @include imgBordered();
-}
-
 .contact-form {
   background: white;
   padding: 4rem;
@@ -69,7 +47,6 @@
   margin-bottom: 2rem;
   padding: 0 2rem 56.25%; /* 16:9 */
 
-
   iframe {
     position: absolute;
     top: 0;
@@ -80,29 +57,98 @@
 }
 
 .show {
+  width: 60vw;
   text-align: center;
   padding: 2rem;
-  border: 2px solid $bluebird;
+  margin-bottom: 2rem;
+  border: 2px solid $charcoal;
+  background: rgba(white, 0.6);
   a {
     color: darken($bluebird, 40%);
   }
   &.history {
-    background-color: rgba($strawberry, 0.2);
-    border: 2px solid $strawberry;
+    color: white;
+    background-color: rgba($charcoal, 0.2);
+    border: 2px solid $charcoal;
   }
 }
 
 .site-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-image: url('/images/playing.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50%;
 
-  .logo {
+  .hero {
+    height: 91vh;
+    line-height: 0;
+    display: grid;
     margin: 0;
     padding: 0;
-    max-width: 45vw;
-    grid-column: 2 / span 2;
+    vertical-align: top;
+
+    .logo {
+      max-width: 40vw;
+      display: block;
+      justify-self: center;
+    }
   }
-  .bio {
-    grid-column: 2 / span 2;
+
+  nav {
+    position: sticky;
+    top: 0;
+    margin-top: -1.6rem;
+
+    ul {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      box-sizing: border-box;
+      padding: 20px;
+      background: rgba(white, 0.9);
+      box-shadow:  0.5rem 0.5rem 0.5rem rgba(gray, 0.6);
+      text-shadow: 1px 1px rgba($charcoal, 0.2);
+
+      li {
+        list-style: none;
+        font-size: 3rem;
+        font-weight: bold;
+        color: darken($charcoal, 10%);
+
+
+        a {
+          padding: 0 3rem;
+          text-decoration: none;
+        }
+      }
+    }
   }
+  .panel {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+
+  #bio {
+    .bio-text {
+      margin: 4rem auto;
+      max-width: 60vw;
+      padding: 5rem;
+      font-size: 2.2rem;
+      text-align: center;
+      background: rgba(white, 0.7);
+    }
+
+  }
+
+  #shows {
+    background: rgba(white, 0.7);
+    height: 100%;
+    padding: 5rem;
+  }
+
+  #book-us {
+
+  }
+
 }

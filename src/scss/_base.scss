@@ -1,18 +1,18 @@
 html {
   font-size: 62.5%;
-  background-image: url('/images/playing.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: 50%;
   margin: 0;
-  height: 100%;
+  padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
- @extend .montserrat;
- font-size: 1.8rem;
- line-height: 1.6;
- margin: 0;
+  font-size: 1.8rem;
+  font-family: 'Lora', serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  box-sizing: border-box;
 }
 
 img {
@@ -20,26 +20,16 @@ img {
 }
 
 a {
-  color: darken($bluebird, 10%);
+  color: darken($charcoal, 10%);
   text-decoration: dashed;
 
   &:hover {
-    color: darken($bluebird, 40%);
+    color: darken($charcoal, 40%);
   }
 }
 
 h1, h2, h3, h4, h5 h6 {
-  @extend .pacifico;
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 0.25rem;
   color: $charcoal;
-}
-
-.wrapper {
-  max-width: 90rem;
-  margin: 20px auto 20px;
-  padding: 4rem;
-  background: rgba(white, 0.6);
-  box-shadow:
-    0 0 1px 5px $bluebird,
-    0 0 1px 8px white,
-    0 0 0 10px rgba($charcoal, 0.5);
 }
