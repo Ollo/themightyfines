@@ -3,51 +3,160 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Boulder County Bluegrass, Honky Tonk and Country Music">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@300;500;700&family=Pacifico&display=swap" rel="stylesheet">
-
+    <meta name="description" content="Boulder County Bluegrass, Country and Honky Tonk String band">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lora:wght@400;700&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='/main.css' />
-    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <title>{{title}} | Brandywine and the Mighty Fines</title>
   </head>
   <body>
-    <div class="wrapper">
-      {% include "logo.njk" %}
-      <hr class="divider" />
-      <nav class='nav'>
-        <ul id='menu' class='nav-list'>
-          <li class='nav-item'>
-            <a href='/'>Home</a>
-          </li>
-          <li class='nav-item'>
-            <a href="/about">About Us</a>
-          </li>
-          <li class='nav-item'>
-            <a href='/tunes'>Tunes</a>
-          </li>
-          <li class='nav-item'>
-            <a href='/shows'>Shows</a>
-          </li>
-          <li class='nav-item'>
-            <a href='/contact'>Contact</a>
-          </li>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '585374482752457',
+          xfbml      : true,
+          version    : 'v12.0'
+        });
+        FB.AppEvents.logPageView()
+      };
+
+      (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+
+
+      }(document, 'script', 'facebook-jssdk'));
+
+    </script>
+    <main class='site-container'>
+
+      <figure class='hero'>
+        <a href='/' class='logo'>
+          <img src='images/BW&TMF-LOGO-ID.png' />
+        </a>
+      </figure>
+
+      <nav>
+        <ul>
+          <li><a href="#bio">About</a></li>
+          <li><a href="#shows">Upcoming Shows</a></li>
+          <li><a href="#media">Media</a></li>
+          <li><a href="#book-us">Book Us</a></li>
         </ul>
       </nav>
-      <main class='content'>
-        {{ content | safe }}
-      </main>
-    </div>
-    <footer class='site-footer'>
-      <div class="social">
-        <a href="https://www.instagram.com/brandywineandthemightyfines/" target="_blank" rel="noopener" title="Instagram">
-          <img src='/images/instagram.png' alt='follow us on instagram'/>
-        </a>
-        <a href="https://www.facebook.com/theMightyFines/" target="_blank" rel="noopener" title="Facebook">
-          <img src='/images/facebook.png' alt='follow up on facebook' />
-        </a>
+
+      <div>
+        <section id='bio' class='panel'>
+          <div class='bio-text'>
+            <p>A lively cross between honky-tonk inspired bluegrass (“tonkgrass”) and sentimental Americana, Brandywine and the Mighty Fines connects to audiences through thoughtful songwriting and clever mashups. Playing a mix of originals and classics from the Dead to Dolly, the Mighty Fines will find you shuffling your feet and daydreaming of other times and places.</p>
+
+            <p>Born out of small town America and coming together through the Foothills, Brandy Ray (vocals, lyrics, mandolin), Matthew Schexnyder (vocals, lyrics, guitar), Joshua Ray (vocals, lyrics, guitar), Emerson Lamm (banjo, dobro), and Lena Dow (vocals, bass) charm listeners with their authentic presence, heartfelt connection, and vocal driven bluegrass.</p>
+          </div>
+        </section>
+
+        <section id="shows" class='panel'>
+          <h1>Upcoming Shows</h1>
+
+          {% for show in shows | reverse %}
+
+          {% if show.active %}
+
+          <article class='show'>
+
+          {% else %}
+
+          <article class='show history'>
+
+          {% endif %}
+            <figure class='poster'>
+              <img src={{ show.poster }} />
+            </figure>
+            <div class='details'>
+              <h2>{{ show.name }}</h2>
+
+              <p>{{ show.location }}</p>
+              <p>{{ show.time }}</p>
+              <p><a class='button' href='{{ show.link }}'>Tickets</a></p>
+            <div>
+          </article>
+
+          {% endfor %}
+
+        </section>
+
+        <section id="media" class="panel">
+          <div class='grid'>
+            <div class='videos'>
+              <div class="video-container">
+                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/tYhU-3aigUg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+
+              <div class="video-container">
+                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/IFCAH30OmzE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+
+            <div class='playlist'>
+              <iframe src="https://open.spotify.com/embed/artist/4JNSV7cx4HavBz661ABoRr?utm_source=generator&theme=0" width="100%" height="200px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+              <div class="fb-page" data-href="https://www.facebook.com/theMightyFines/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/theMightyFines/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/theMightyFines/">Brandywine and the Mighty Fines</a></blockquote></div>
+            </div>
+          </div>
+        </section>
+
+        <section id="book-us" class='panel'>
+          <div class="contact-form">
+            <h1>Booking / Contact Us</h1>
+            <p>Interested in adding some boot stomping live music to your next event?</p>
+
+            <form action="https://formspree.io/mdozvqzr" method="POST">
+
+              <label class="field">Your Name:
+              <input class="field-input" type="text" name="name" placeholder="John Doe">
+              </label>
+
+              <label class="field">Your Email:
+              <input class="field-input" type="email" name="_replyto" placeholder="John@doe.com">
+              </label>
+
+              <label class="field"> Details:
+              <textarea class="field-input" name="message" placeholder="Tell us about your event"></textarea>
+              </label>
+
+              <button class='button' type="submit">SEND</button>
+            </form>
+          </div>
+        </section>
+
+        <footer>
+          <figure>
+            <a href='/'>
+              <img class='logo' src='images/BW&TMF-LOGO-ID.png' />
+            </a>
+          </figure>
+          <small id='copyright'></small>
+          <div class="social">
+            <a href="https://www.instagram.com/brandywineandthemightyfines/" target="_blank" rel="noopener" title="Instagram">
+              <img src='/images/instagram.png' alt='follow us on instagram'/>
+            </a>
+            <a href="https://www.facebook.com/theMightyFines/"    target="_blank" rel="noopener" title="Facebook">
+              <img src='/images/facebook.png' alt='follow up on facebook' />
+            </a>
+          </div>
+        </footer>
       </div>
-      <small id='copyright'></small>
-    </footer>
+    </main>
     <script type='text/javascript'>
 
       document.getElementById('copyright')
