@@ -4,9 +4,12 @@
   "description": "Boulder County front range bluegrass and honky tonk",
   "main": "index.js",
   "scripts": {
-    "start": "gulp watch & eleventy --serve --watch --config=.eleventy.js",
-    "prestart": "npm run build",
-    "build": "gulp css && eleventy --config=.eleventy.js"
+    "start": "npm run build:css:watch & npm run build:site:watch",
+    "build": "npm run build:css && npm run build:site",
+    "build:site": "eleventy --config=.eleventy.js",
+    "build:site:watch": "eleventy --serve --watch --config=.eleventy.js",
+    "build:css": "sass app/scss:dist --style=compressed",
+    "build:css:watch": "sass --style=compressed --watch app/scss:dist"
   },
   "repository": {
     "type": "git",
@@ -25,9 +28,6 @@
   "homepage": "https://github.com/Ollo/themightyfines#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
-    "gulp": "4.0.2",
-    "gulp-autoprefixer": "^8.0.0",
-    "gulp-sass": "^4.1.0",
-    "node-sass": "5.0.0"
+    "sass": "^1.43.4"
   }
 }
