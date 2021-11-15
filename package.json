@@ -8,7 +8,7 @@
     "build": "npm run build:css && npm run build:site",
     "build:site": "eleventy --config=.eleventy.js",
     "build:site:watch": "eleventy --serve --watch --config=.eleventy.js",
-    "build:css": "sass app/scss:dist --style=compressed",
+    "build:css": "sass src/scss:dist --style=compressed",
     "build:css:watch": "sass --style=compressed --watch app/scss:dist"
   },
   "repository": {
