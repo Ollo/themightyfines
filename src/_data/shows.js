@@ -92,9 +92,16 @@ const shows = [
     link: "https://www.axs.com/events/417573/jane-and-matthews-with-graham-good-the-painters-phantom-phare-brandy-tickets?skin=foxtheatre",
     active: true,
     poster: 'images/posters/2022-2-19.jpg'
-  }
-
-
+  },
+  {
+    date: "April 15th, 2022",
+    location: "Lyons, CO",
+    name: "MainStage Brewing",
+    time: "6pm - 9pm",
+    link: "/",
+    active: true,
+    poster: 'images/posters/placeholder.jpg'
+  },
 ]
 
 module.exports = shows
