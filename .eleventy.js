@@ -2,7 +2,6 @@ module.exports = function(config) {
   config.setDynamicPermalinks(false)
   config.addWatchTarget('./src/scss/')
 
-
   return {
     dir: {
       input: "src",
@@ -12,7 +11,7 @@ module.exports = function(config) {
     },
     passthroughFileCopy: true,
     templateFormats : [
-      "njk", 
+      "njk",
       "md",
       "css",
       "png",

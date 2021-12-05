@@ -1,7 +1,7 @@
 {
   "name": "themightyfines",
   "version": "0.1.0",
-  "description": "Boulder County front range bluegrass and honky tonk",
+  "description": "A Front Range Bluegrass, Country and Honky Tonk band",
   "main": "index.js",
   "scripts": {
     "start": "npm run build:css:watch & npm run build:site:watch",
