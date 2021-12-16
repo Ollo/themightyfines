@@ -82,7 +82,7 @@ const shows = [
     time: "2pm - 6pm",
     link: "/",
     active: true,
-    poster: 'images/posters/placeholder.jpg'
+    poster: 'images/posters/2022-1-22.jpg'
   },
   {
     date: "February 19th, 2022",
@@ -94,14 +94,23 @@ const shows = [
     poster: 'images/posters/2022-2-19.jpg'
   },
   {
-    date: "April 15th, 2022",
-    location: "Lyons, CO",
-    name: "MainStage Brewing",
-    time: "6pm - 9pm",
-    link: "/",
+    date: "March 26th, 2022",
+    location: "Denver, CO",
+    name: "The Lodge at Wood Boss",
+    time: "Doors @ 7:00pm",
+    link: "https://www.eventbrite.com/e/high-lonesome-w-brandywine-and-the-mighty-fines-at-the-lodge-tickets-224966840877?fbclid=IwAR2QAz2Fi7fpd3rf34Y2t8wrTCun8OdftoYCTGoZb5IASigZsAmrq4fKCyg",
     active: true,
-    poster: 'images/posters/placeholder.jpg'
+    poster: 'images/posters/2022-3-26.png',
   },
+  // {
+  //   date: "April 15th, 2022",
+  //   location: "Lyons, CO",
+  //   name: "MainStage Brewing",
+  //   time: "6pm - 9pm",
+  //   link: "/",
+  //   active: true,
+  //   poster: 'images/posters/placeholder.jpg'
+  // },
 ]
 
 module.exports = shows
