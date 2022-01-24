@@ -1,0 +1,3 @@
+[build.environment]
+  NODE_VESION = "16"
+  NPM_VERSION = "8"

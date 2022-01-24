@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run build:css:watch & npm run build:site:watch",
-    "build": "npm run build:css && npm run build:site",
+    "deploy": "npm run build:css && npm run build:site",
     "build:site": "eleventy --config=.eleventy.js",
     "build:site:watch": "eleventy --serve --watch --config=.eleventy.js",
     "build:css": "sass src/scss:dist --style=compressed",
