@@ -81,7 +81,7 @@ const shows = [
     name: "Bloodies & Bluegrass @ Mile High Spirits",
     time: "2pm - 6pm",
     link: "/",
-    active: true,
+    active: false,
     poster: 'images/posters/2022-1-22.jpg'
   },
   {
@@ -102,15 +102,15 @@ const shows = [
     active: true,
     poster: 'images/posters/2022-3-26.png',
   },
-  // {
-  //   date: "April 15th, 2022",
-  //   location: "Lyons, CO",
-  //   name: "MainStage Brewing",
-  //   time: "6pm - 9pm",
-  //   link: "/",
-  //   active: true,
-  //   poster: 'images/posters/placeholder.jpg'
-  // },
+  {
+    date: "April 15th, 2022",
+    location: "Lyons, CO",
+    name: "MainStage Brewing",
+    time: "6pm - 9pm",
+    link: "https://www.mainstagebrewing.com/music/brandywine-the-mighty-fines",
+    active: true,
+    poster: 'images/posters/2022-4-15.png'
+  },
 ]
 
 module.exports = shows
