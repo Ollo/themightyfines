@@ -48,15 +48,15 @@ const shows = [
   //   link: "https://www.facebook.com/KettleandSpoke/events/",
   //   active: false,
   // },
-  {
-    date: "September 18th, 2021",
-    location: "Rollinsville, CO",
-    name: "Howlin Wind Brewing and Blending",
-    time: "3pm - 6pm",
-    link: "https://www.facebook.com/events/188121240053869",
-    active: false,
-    poster: 'images/posters/placeholder.jpg'
-  },
+  // {
+  //   date: "September 18th, 2021",
+  //   location: "Rollinsville, CO",
+  //   name: "Howlin Wind Brewing and Blending",
+  //   time: "3pm - 6pm",
+  //   link: "https://www.facebook.com/events/188121240053869",
+  //   active: false,
+  //   poster: 'images/posters/placeholder.jpg'
+  // },
   {
     date: "October 31st",
     location: "Boulder, CO",
@@ -92,6 +92,15 @@ const shows = [
     link: "https://www.axs.com/events/417573/jane-and-matthews-with-graham-good-the-painters-phantom-phare-brandy-tickets?skin=foxtheatre",
     active: true,
     poster: 'images/posters/2022-2-19.jpg'
+  },
+  {
+    date: "March 11th, 2022",
+    location: "Dillon, CO",
+    name: "Warren Station at Keystone",
+    time: "Doors @ 7:30pm",
+    link: "https://warrenstation.com/event/winterbluegrass2022/",
+    active: true,
+    poster: 'images/posters/2022-3-11.jpg'
   },
   {
     date: "March 26th, 2022",
