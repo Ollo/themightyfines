@@ -57,24 +57,24 @@ const shows = [
   //   active: false,
   //   poster: 'images/posters/placeholder.jpg'
   // },
-  {
-    date: "October 31st",
-    location: "Boulder, CO",
-    name: "Grateful Halloween ~ Kettle and Spoke",
-    time: "5pm - 8:30pm",
-    link: "https://www.facebook.com/events/178809114435692",
-    active: false,
-    poster: 'images/posters/2021-10-31.jpg'
-  },
-  {
-    date: "November 6th, 2021",
-    location: "Boulder, CO",
-    name: "Beyond the Mountain Brewing Company",
-    time: "6pm - 9pm",
-    link: "https://www.facebook.com/events/309177470864776",
-    active: false,
-    poster: 'images/posters/2021-11-3.jpg'
-  },
+  // {
+  //   date: "October 31st",
+  //   location: "Boulder, CO",
+  //   name: "Grateful Halloween ~ Kettle and Spoke",
+  //   time: "5pm - 8:30pm",
+  //   link: "https://www.facebook.com/events/178809114435692",
+  //   active: false,
+  //   poster: 'images/posters/2021-10-31.jpg'
+  // },
+  // {
+  //   date: "November 6th, 2021",
+  //   location: "Boulder, CO",
+  //   name: "Beyond the Mountain Brewing Company",
+  //   time: "6pm - 9pm",
+  //   link: "https://www.facebook.com/events/309177470864776",
+  //   active: false,
+  //   poster: 'images/posters/2021-11-3.jpg'
+  // },
   {
     date: "January 22nd, 2022",
     location: "Denver, CO",
@@ -90,8 +90,17 @@ const shows = [
     name: "The Fox Theater",
     time: "Doors @ 8:30pm",
     link: "https://www.axs.com/events/417573/jane-and-matthews-with-graham-good-the-painters-phantom-phare-brandy-tickets?skin=foxtheatre",
-    active: true,
+    active: false,
     poster: 'images/posters/2022-2-19.jpg'
+  },
+  {
+    date: "February 19th, 2022",
+    location: "Boulder, CO",
+    name: "Brandywine Trio @ Kettle & Spoke",
+    time: "7pm - 9pm",
+    link: "https://www.facebook.com/events/424610889443934",
+    active: false,
+    poster: 'images/posters/placeholder.jpg'
   },
   {
     date: "March 11th, 2022",
