@@ -129,6 +129,15 @@ const shows = [
     active: true,
     poster: 'images/posters/2022-4-15.png'
   },
+  {
+    date: "April 29th, 2022",
+    location: "Jamestown, CO",
+    name: "Jamestown Mercantile",
+    time: "7pm - 9pm",
+    link: "https://www.jamestownmercantile.com/calendar",
+    active: true,
+    poster: 'images/posters/placeholder.jpg'
+  },
 ]
 
 module.exports = shows
