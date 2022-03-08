@@ -94,7 +94,7 @@ const shows = [
     poster: 'images/posters/2022-2-19.jpg'
   },
   {
-    date: "February 19th, 2022",
+    date: "February 25th, 2022",
     location: "Boulder, CO",
     name: "Brandywine Trio @ Kettle & Spoke",
     time: "7pm - 9pm",
