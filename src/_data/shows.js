@@ -106,7 +106,7 @@ const shows = [
     date: "March 11th, 2022",
     location: "Dillon, CO",
     name: "Keystone Winter Bluegrass Weekend",
-    time: "Doors @ 7:30pm",
+    time: "Doors @ 6:30pm",
     link: "https://warrenstation.com/event/winterbluegrass2022/",
     active: true,
     poster: 'images/posters/2022-3-11.jpg'
