@@ -108,7 +108,7 @@ const shows = [
     name: "Keystone Winter Bluegrass Weekend",
     time: "Doors @ 6:30pm",
     link: "https://warrenstation.com/event/winterbluegrass2022/",
-    active: true,
+    active: false,
     poster: 'images/posters/2022-3-11.jpg'
   },
   {
@@ -135,6 +135,13 @@ const shows = [
     name: "Jamestown Mercantile",
     time: "7pm - 9pm",
     link: "https://www.jamestownmercantile.com/calendar",
+    active: true,
+    poster: 'images/posters/placeholder.jpg'
+  },
+  {
+    date: "June 4th, 2022",
+    location: "Altona, CO",
+    name: "Private Event",
     active: true,
     poster: 'images/posters/placeholder.jpg'
   },

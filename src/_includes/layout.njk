@@ -89,7 +89,9 @@
               <p>{{ show.location }}</p>
               <p>{{ show.date }}</p>
               <p>{{ show.time }}</p>
-              <p><a class='button' href='{{ show.link }}' target='_blank' rel='noopener noreferrer'>Details</a></p>
+              {% if show.link !== undefined %}
+                <p><a class='button' href='{{ show.link }}' target='_blank' rel='noopener noreferrer'>Details</a></p>
+              {% endif %}
             <div>
           </article>
           {% endif %}
@@ -108,7 +110,9 @@
               <p>{{ show.location }}</p>
               <p>{{ show.date }}</p>
               <p>{{ show.time }}</p>
-              <p><a class='button' href='{{ show.link }}' target='_blank' rel='noopener noreferrer'>Details</a></p>
+              {% if show.link !== undefined %}
+                <p><a class='button' href='{{ show.link }}' target='_blank' rel='noopener noreferrer'>Details</a></p>
+              {% endif %}
             <div>
           </article>
           {% endif %}
