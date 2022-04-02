@@ -117,7 +117,7 @@ const shows = [
     name: "The Lodge at Wood Boss",
     time: "Doors @ 7:00pm",
     link: "https://www.eventbrite.com/e/high-lonesome-w-brandywine-and-the-mighty-fines-at-the-lodge-tickets-224966840877?fbclid=IwAR2QAz2Fi7fpd3rf34Y2t8wrTCun8OdftoYCTGoZb5IASigZsAmrq4fKCyg",
-    active: true,
+    active: false,
     poster: 'images/posters/2022-3-26.png',
   },
   {
@@ -130,6 +130,15 @@ const shows = [
     poster: 'images/posters/2022-4-15.png'
   },
   {
+    date: "April 23th, 2022",
+    location: "Lyons, CO",
+    name: "FoCoMX ~ Equinox Brewing",
+    time: "3pm",
+    link: "https://focomx.focoma.org/artists/brandywine-and-mighty-fines",
+    active: true,
+    poster: 'images/posters/2022-4-23.png'
+  },
+  {
     date: "April 29th, 2022",
     location: "Jamestown, CO",
     name: "Jamestown Mercantile",
@@ -139,11 +148,19 @@ const shows = [
     poster: 'images/posters/placeholder.jpg'
   },
   {
+    date: "May 1st, 2022",
+    location: "Longmont, CO",
+    name: "(ECHO) Birthday Party ~ Left Hand Brewery Beer Garden",
+    link: "https://www.echocolorado.com/news",
+    active: true,
+    poster: 'images/posters/placeholder.jpg'
+  },
+  {
     date: "June 4th, 2022",
     location: "Altona, CO",
     name: "Private Event",
     active: true,
-    poster: 'images/posters/placeholder.jpg'
+    poster: 'images/posters/2022-6-4.png'
   },
 ]
 
