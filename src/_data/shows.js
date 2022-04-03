@@ -145,7 +145,7 @@ const shows = [
     time: "7pm - 9pm",
     link: "https://www.jamestownmercantile.com/calendar",
     active: true,
-    poster: 'images/posters/placeholder.jpg'
+    poster: 'images/posters/2022-4-29.jpg'
   },
   {
     date: "May 1st, 2022",
