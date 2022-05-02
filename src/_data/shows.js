@@ -126,7 +126,7 @@ const shows = [
     name: "MainStage Brewing",
     time: "6pm - 9pm",
     link: "https://www.mainstagebrewing.com/music/brandywine-the-mighty-fines",
-    active: true,
+    active: false,
     poster: 'images/posters/2022-4-15.png'
   },
   {
@@ -135,7 +135,7 @@ const shows = [
     name: "FoCoMX ~ Equinox Brewing",
     time: "3pm",
     link: "https://focomx.focoma.org/artists/brandywine-and-mighty-fines",
-    active: true,
+    active: false,
     poster: 'images/posters/2022-4-23.png'
   },
   {
@@ -144,7 +144,7 @@ const shows = [
     name: "Jamestown Mercantile",
     time: "7pm - 9pm",
     link: "https://www.jamestownmercantile.com/calendar",
-    active: true,
+    active: false,
     poster: 'images/posters/2022-4-29.jpg'
   },
   {
@@ -152,7 +152,7 @@ const shows = [
     location: "Longmont, CO",
     name: "(ECHO) Birthday Party ~ Left Hand Brewery Beer Garden",
     link: "https://www.echocolorado.com/news",
-    active: true,
+    active: false,
     poster: 'images/posters/placeholder.jpg'
   },
   {
@@ -162,6 +162,31 @@ const shows = [
     active: true,
     poster: 'images/posters/2022-6-4.png'
   },
+  {
+    date: "June 22nd, 2022",
+    location: "Denver, CO",
+    name: "Cervantes Masterpiece ~ Jay Roemer Band, Southbound String Band",
+    link: "https://www.etix.com/ticket/p/3977797/jay-roemer-band-ftmembers-of-hot-buttered-rum-chain-station-wsouthbound-string-band-ftmembers-of-morsel-clay-stunit-denver-cervantesother-side",
+    active: true,
+    poster: 'images/posters/2022-06-22.jpg'
+  },
+  {
+    date: "July 23rd, 2022",
+    location: "Rollinsville, CO",
+    name: "Stage Stop Pub",
+    link: "https://www.facebook.com/stagestoppub",
+    active: true,
+    poster: 'images/posters/placeholder.jpg'
+  },
+  {
+    date: "August 12th, 2022",
+    location: "Guffey, CO",
+    name: "Humm Family Gathering",
+    link: "https://hummfamilygathering.ticketleap.com/2022/?fbclid=IwAR2_0C2dreRI0zWLNcCgblCb0dFblxVKG59gQLk1EmMBSCvUTLuYR-gvJDw",
+    active: true,
+    poster: 'images/posters/2022-08-12.jpg'
+  },
+
 ]
 
 module.exports = shows
