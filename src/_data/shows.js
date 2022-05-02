@@ -136,7 +136,7 @@ const shows = [
     time: "3pm",
     link: "https://focomx.focoma.org/artists/brandywine-and-mighty-fines",
     active: false,
-    poster: 'images/posters/2022-4-23.png'
+    poster: 'images/posters/2022-4-23.jpg'
   },
   {
     date: "April 29th, 2022",
