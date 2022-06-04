@@ -156,6 +156,15 @@ const shows = [
     poster: 'images/posters/placeholder.jpg'
   },
   {
+    date: "May 28th, 2022",
+    location: "Estes Park, CO",
+    name: "Full Throttle Distillery",
+    link: "https://www.facebook.com/theMightyFines/photos/a.128056302089629/562039912024597",
+    active: false,
+    time: '5pm - 8pm',
+    poster: 'images/posters/2022-5-28.jpg'
+  },
+  {
     date: "June 4th, 2022",
     location: "Altona, CO",
     name: "Private Event",
@@ -163,11 +172,21 @@ const shows = [
     poster: 'images/posters/2022-6-4.png'
   },
   {
+    date: "June 18th, 2022",
+    location: "Longmont, CO",
+    name: "Wibby Brewing",
+    link: "/",
+    time: '6pm - 9pm',
+    active: true,
+    poster: 'images/posters/2022-06-18.jpg'
+  },
+  {
     date: "June 22nd, 2022",
     location: "Denver, CO",
     name: "Cervantes Masterpiece ~ Jay Roemer Band, Southbound String Band",
     link: "https://www.etix.com/ticket/p/3977797/jay-roemer-band-ftmembers-of-hot-buttered-rum-chain-station-wsouthbound-string-band-ftmembers-of-morsel-clay-stunit-denver-cervantesother-side",
     active: true,
+    time: '7:30pm',
     poster: 'images/posters/2022-06-22.jpg'
   },
   {
