@@ -168,14 +168,14 @@ const shows = [
     date: "June 4th, 2022",
     location: "Altona, CO",
     name: "Private Event",
-    active: true,
+    active: false,
     poster: 'images/posters/2022-6-4.png'
   },
   {
     date: "June 18th, 2022",
     location: "Longmont, CO",
     name: "Wibby Brewing",
-    link: "/",
+    link: "https://www.facebook.com/events/1227315141412371",
     time: '6pm - 9pm',
     active: true,
     poster: 'images/posters/2022-06-18.jpg'
@@ -195,7 +195,7 @@ const shows = [
     name: "Stage Stop Pub",
     link: "https://www.facebook.com/stagestoppub",
     active: true,
-    poster: 'images/posters/placeholder.jpg'
+    poster: 'images/posters/2022-7-23.png'
   },
   {
     date: "August 12th, 2022",
