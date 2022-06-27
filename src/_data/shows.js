@@ -177,7 +177,7 @@ const shows = [
     name: "Wibby Brewing",
     link: "https://www.facebook.com/events/1227315141412371",
     time: '6pm - 9pm',
-    active: true,
+    active: false,
     poster: 'images/posters/2022-06-18.jpg'
   },
   {
@@ -185,9 +185,17 @@ const shows = [
     location: "Denver, CO",
     name: "Cervantes Masterpiece ~ Jay Roemer Band, Southbound String Band",
     link: "https://www.etix.com/ticket/p/3977797/jay-roemer-band-ftmembers-of-hot-buttered-rum-chain-station-wsouthbound-string-band-ftmembers-of-morsel-clay-stunit-denver-cervantesother-side",
-    active: true,
+    active: false,
     time: '7:30pm',
     poster: 'images/posters/2022-06-22.jpg'
+  },
+  {
+    date: "July 25rd, 2022",
+    location: "Littleton, CO",
+    name: "Breckenridge Brewery Farmhouse",
+    link: "https://www.facebook.com/events/342620314611644",
+    active: false,
+    poster: 'images/posters/placeholder.jpg'
   },
   {
     date: "July 23rd, 2022",
@@ -196,6 +204,22 @@ const shows = [
     link: "https://www.facebook.com/stagestoppub",
     active: true,
     poster: 'images/posters/2022-7-23.png'
+  },
+  {
+    date: "August 26th, 2022",
+    location: "Lafayette, CO",
+    name: "Cellar West ~ Summer Concert Series",
+    link: "https://www.cellarwest.com/events",
+    active: true,
+    poster: 'images/posters/2022-8-26.jpg'
+  },
+  {
+    date: "September 11th, 2022",
+    location: "Denver, CO",
+    name: "Number Thirty Eight",
+    link: "https://nmbr38.com/calendar",
+    active: true,
+    poster: 'images/posters/placeholder.jpg'
   },
   {
     date: "August 12th, 2022",
