@@ -190,7 +190,7 @@ const shows = [
     poster: 'images/posters/2022-06-22.jpg'
   },
   {
-    date: "July 25rd, 2022",
+    date: "June 25th, 2022",
     location: "Littleton, CO",
     name: "Breckenridge Brewery Farmhouse",
     link: "https://www.facebook.com/events/342620314611644",
@@ -206,20 +206,12 @@ const shows = [
     poster: 'images/posters/2022-7-23.png'
   },
   {
-    date: "August 26th, 2022",
+    date: "August 8th, 2022",
     location: "Lafayette, CO",
     name: "Cellar West ~ Summer Concert Series",
     link: "https://www.cellarwest.com/events",
     active: true,
     poster: 'images/posters/2022-8-26.jpg'
-  },
-  {
-    date: "September 11th, 2022",
-    location: "Denver, CO",
-    name: "Number Thirty Eight",
-    link: "https://nmbr38.com/calendar",
-    active: true,
-    poster: 'images/posters/placeholder.jpg'
   },
   {
     date: "August 12th, 2022",
@@ -228,6 +220,14 @@ const shows = [
     link: "https://hummfamilygathering.ticketleap.com/2022/?fbclid=IwAR2_0C2dreRI0zWLNcCgblCb0dFblxVKG59gQLk1EmMBSCvUTLuYR-gvJDw",
     active: true,
     poster: 'images/posters/2022-08-12.jpg'
+  },
+  {
+    date: "September 11th, 2022",
+    location: "Denver, CO",
+    name: "Number Thirty Eight",
+    link: "https://nmbr38.com/calendar",
+    active: true,
+    poster: 'images/posters/placeholder.jpg'
   },
 
 ]
