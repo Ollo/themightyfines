@@ -202,16 +202,8 @@ const shows = [
     location: "Rollinsville, CO",
     name: "Stage Stop Pub",
     link: "https://www.facebook.com/stagestoppub",
-    active: true,
+    active: false,
     poster: 'images/posters/2022-7-23.png'
-  },
-  {
-    date: "August 8th, 2022",
-    location: "Lafayette, CO",
-    name: "Cellar West ~ Summer Concert Series",
-    link: "https://www.cellarwest.com/events",
-    active: true,
-    poster: 'images/posters/2022-8-26.jpg'
   },
   {
     date: "August 12th, 2022",
@@ -222,6 +214,22 @@ const shows = [
     poster: 'images/posters/2022-08-12.jpg'
   },
   {
+    date: "August 16th, 2022",
+    location: "Boulder, CO",
+    name: "Gloo ~ Company Picnic",
+    link: "",
+    active: true,
+    poster: 'images/posters/placeholder.jpg'
+  },
+  {
+    date: "August 26th, 2022",
+    location: "Lafayette, CO",
+    name: "Cellar West ~ Summer Concert Series",
+    link: "https://www.cellarwest.com/events",
+    active: true,
+    poster: 'images/posters/2022-8-26.jpg'
+  },
+  {
     date: "September 11th, 2022",
     location: "Denver, CO",
     name: "Number Thirty Eight",
@@ -229,7 +237,14 @@ const shows = [
     active: true,
     poster: 'images/posters/placeholder.jpg'
   },
-
+  {
+    date: "September 17th, 2022",
+    location: "Palisade, CO",
+    name: "Palisade Brewing Company",
+    link: "https://www.facebook.com/palisadebrewingco/",
+    active: true,
+    poster: 'images/posters/placeholder.jpg'
+  },
 ]
 
 module.exports = shows
