@@ -210,7 +210,7 @@ const shows = [
     location: "Guffey, CO",
     name: "Humm Family Gathering",
     link: "https://hummfamilygathering.ticketleap.com/2022/?fbclid=IwAR2_0C2dreRI0zWLNcCgblCb0dFblxVKG59gQLk1EmMBSCvUTLuYR-gvJDw",
-    active: true,
+    active: false,
     poster: 'images/posters/2022-08-12.jpg'
   },
   {
@@ -218,7 +218,7 @@ const shows = [
     location: "Boulder, CO",
     name: "Gloo ~ Company Picnic",
     link: "",
-    active: true,
+    active: false,
     poster: 'images/posters/placeholder.jpg'
   },
   {
@@ -226,23 +226,34 @@ const shows = [
     location: "Lafayette, CO",
     name: "Cellar West ~ Summer Concert Series",
     link: "https://www.cellarwest.com/events",
-    active: true,
+    active: false,
     poster: 'images/posters/2022-8-26.jpg'
+  },
+  {
+    date: "September 10th, 2022",
+    location: "Copper Mountain",
+    name: "Union Peak Festival",
+    link: "https://www.coppercolorado.com/things-to-do/events/union-peak-festival?fbclid=IwAR2gR-GqvIGCcCcM1PCJ9rccMOtJsy_XxlZsTI2wFmr6Bco5FzFKDn8Y7No",
+    active: true,
+    time: "12 - 1:30pm",
+    poster: 'images/posters/2022-9-10.jpg'
   },
   {
     date: "September 11th, 2022",
     location: "Denver, CO",
     name: "Number Thirty Eight",
-    link: "https://nmbr38.com/calendar",
+    link: "https://nmbr38.com/events/6snb7y485ekrtea-l7y3n-x6wmn-9cz9x-emzed-njw22-fmh2l-gz8y9-5r6tf-le2y6-lh5wp-5d9rt-98fr9-2cmhz-2ytkh-ndasd-jd29w-ytkdd-mhjlt-gg936-4wktz-8l7s6-mjaez-ddmhb-6cdmb-t2zey-5cepa-5ma8x-n59k9-smrx4-jk24p",
     active: true,
+    time: "3pm - 5pm",
     poster: 'images/posters/placeholder.jpg'
   },
   {
     date: "September 17th, 2022",
     location: "Palisade, CO",
     name: "Palisade Brewing Company",
-    link: "https://www.facebook.com/palisadebrewingco/",
+    link: "https://fb.me/e/3vlSKp4PZ",
     active: true,
+    time: "7pm",
     poster: 'images/posters/placeholder.jpg'
   },
 ]
