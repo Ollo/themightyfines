@@ -252,10 +252,49 @@ const shows = [
     location: "Palisade, CO",
     name: "Palisade Brewing Company",
     link: "https://fb.me/e/3vlSKp4PZ",
-    active: true,
+    active: false,
     time: "7pm",
     poster: 'images/posters/2022-9-17.jpg'
   },
+  {
+    date: "October 1st, 2022",
+    location: "Gunbarrel, CO",
+    name: "Beyond the Mountain Brewing Company",
+    link: "https://fb.me/e/1U9S0VDG4",
+    active: false,
+    time: "7pm",
+    poster: 'images/posters/placeholder.jpg'
+  },
+  {
+    date: "October 8th, 2022",
+    location: "Lafayette, CO",
+    name: "Lafayette Music Fest",
+    link: "https://fb.me/e/1U9S0VDG4",
+    active: true,
+    time: "6:30pm",
+    poster: 'images/posters/2022-10-8.jpg'
+  },
+  {
+    date: "October 28th, 2022",
+    location: "Longmont, CO",
+    name: "Oskar Blues Taproom",
+    link: "https://www.facebook.com/events/1057645471566905",
+    active: true,
+    time: "6:30pm - 9pm",
+    poster: 'images/posters/placeholder.jpg'
+  },
+  {
+    date: "November 10th, 2022",
+    location: "Denver, CO",
+    name: "Lions Lair with Tonewood and Foggy Memory Boys",
+    link: "https://www.facebook.com/events/1057645471566905",
+    active: true,
+    time: "9pm",
+    poster: 'images/posters/2022-11-10.jpg'
+  },
+
 ]
+
+https://www.oskarblues.com/location/longmont-co-tasty-weasel-taproom/
 
 module.exports = shows
