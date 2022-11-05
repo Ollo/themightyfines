@@ -270,7 +270,7 @@ const shows = [
     location: "Lafayette, CO",
     name: "Lafayette Music Fest",
     link: "https://fb.me/e/1U9S0VDG4",
-    active: true,
+    active: false,
     time: "6:30pm",
     poster: 'images/posters/2022-10-8.jpg'
   },
@@ -279,7 +279,7 @@ const shows = [
     location: "Longmont, CO",
     name: "Oskar Blues Taproom",
     link: "https://www.facebook.com/events/1057645471566905",
-    active: true,
+    active: false,
     time: "6:30pm - 9pm",
     poster: 'images/posters/placeholder.jpg'
   },
@@ -294,7 +294,5 @@ const shows = [
   },
 
 ]
-
-https://www.oskarblues.com/location/longmont-co-tasty-weasel-taproom/
 
 module.exports = shows
