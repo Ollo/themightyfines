@@ -114,9 +114,8 @@
 
 .site-container {
   background: url('/images/mobile-bg.jpeg') no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
-  background-position: 50% 50%;
 
   @include breakpoint('tablet') {
     background: url('/images/bwmf-bookshop.jpeg') no-repeat;
@@ -129,13 +128,14 @@
     line-height: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     margin: 0;
     padding: 0;
     height: 75vh;
 
     @include breakpoint('tablet') {
       height: 91vh;
+      align-items: center;
     }
 
     .logo {
@@ -228,11 +228,15 @@
   #bio {
     .bio-text {
       margin: 4rem auto;
-      max-width: 60vw;
+      max-width: 80vw;
       padding: 5rem;
       font-size: 2.2rem;
       text-align: center;
       background: rgba(white, 0.7);
+
+      @include breakpoint('tablet') {
+        max-width: 60vw;
+      }
     }
 
   }
