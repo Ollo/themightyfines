@@ -9,7 +9,7 @@
     "build:site": "eleventy --config=.eleventy.js",
     "build:site:watch": "eleventy --serve --watch --config=.eleventy.js",
     "build:css": "sass src/scss:dist --style=compressed",
-    "build:css:watch": "sass --style=compressed --watch app/scss:dist"
+    "build:css:watch": "sass --style=compressed --watch src/scss:dist"
   },
   "repository": {
     "type": "git",

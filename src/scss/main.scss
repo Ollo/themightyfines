@@ -113,12 +113,13 @@
 }
 
 .site-container {
-  background: url('images/bg-mobile.jpg') no-repeat;
-  background-size: contain;
-  background-position-y: 100px;
+  background: url('/images/mobile-bg.jpeg') no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 50%;
 
   @include breakpoint('tablet') {
-    background: url('/images/playing.jpg') no-repeat;
+    background: url('/images/bwmf-bookshop.jpeg') no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 50%;
@@ -126,10 +127,11 @@
 
   .hero {
     line-height: 0;
-    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0;
     padding: 0;
-    vertical-align: top;
     height: 75vh;
 
     @include breakpoint('tablet') {
@@ -141,11 +143,12 @@
       justify-self: center;
 
       @include breakpoint('tablet') {
-        max-width: 40vw;
+        max-width: 50vw;
       }
 
       img {
         width: 100%;
+        align-items: center;
       }
     }
   }

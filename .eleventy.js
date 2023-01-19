@@ -16,6 +16,7 @@ module.exports = function(config) {
       "css",
       "png",
       "jpg",
+      "jpeg",
       "ico"
     ],
     htmlTemplateEngine : "njk",

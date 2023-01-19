@@ -75,136 +75,136 @@ const shows = [
   //   active: false,
   //   poster: 'images/posters/2021-11-3.jpg'
   // },
-  {
-    date: "January 22nd, 2022",
-    location: "Denver, CO",
-    name: "Bloodies & Bluegrass @ Mile High Spirits",
-    time: "2pm - 6pm",
-    link: "/",
-    active: false,
-    poster: 'images/posters/2022-1-22.jpg'
-  },
-  {
-    date: "February 19th, 2022",
-    location: "Boulder, CO",
-    name: "The Fox Theater",
-    time: "Doors @ 8:30pm",
-    link: "https://www.axs.com/events/417573/jane-and-matthews-with-graham-good-the-painters-phantom-phare-brandy-tickets?skin=foxtheatre",
-    active: false,
-    poster: 'images/posters/2022-2-19.jpg'
-  },
-  {
-    date: "February 25th, 2022",
-    location: "Boulder, CO",
-    name: "Brandywine Trio @ Kettle & Spoke",
-    time: "7pm - 9pm",
-    link: "https://www.facebook.com/events/424610889443934",
-    active: false,
-    poster: 'images/posters/placeholder.jpg'
-  },
-  {
-    date: "March 11th, 2022",
-    location: "Dillon, CO",
-    name: "Keystone Winter Bluegrass Weekend",
-    time: "Doors @ 6:30pm",
-    link: "https://warrenstation.com/event/winterbluegrass2022/",
-    active: false,
-    poster: 'images/posters/2022-3-11.jpg'
-  },
-  {
-    date: "March 26th, 2022",
-    location: "Denver, CO",
-    name: "The Lodge at Wood Boss",
-    time: "Doors @ 7:00pm",
-    link: "https://www.eventbrite.com/e/high-lonesome-w-brandywine-and-the-mighty-fines-at-the-lodge-tickets-224966840877?fbclid=IwAR2QAz2Fi7fpd3rf34Y2t8wrTCun8OdftoYCTGoZb5IASigZsAmrq4fKCyg",
-    active: false,
-    poster: 'images/posters/2022-3-26.png',
-  },
-  {
-    date: "April 15th, 2022",
-    location: "Lyons, CO",
-    name: "MainStage Brewing",
-    time: "6pm - 9pm",
-    link: "https://www.mainstagebrewing.com/music/brandywine-the-mighty-fines",
-    active: false,
-    poster: 'images/posters/2022-4-15.png'
-  },
-  {
-    date: "April 23th, 2022",
-    location: "Lyons, CO",
-    name: "FoCoMX ~ Equinox Brewing",
-    time: "3pm",
-    link: "https://focomx.focoma.org/artists/brandywine-and-mighty-fines",
-    active: false,
-    poster: 'images/posters/2022-4-23.jpg'
-  },
-  {
-    date: "April 29th, 2022",
-    location: "Jamestown, CO",
-    name: "Jamestown Mercantile",
-    time: "7pm - 9pm",
-    link: "https://www.jamestownmercantile.com/calendar",
-    active: false,
-    poster: 'images/posters/2022-4-29.jpg'
-  },
-  {
-    date: "May 1st, 2022",
-    location: "Longmont, CO",
-    name: "(ECHO) Birthday Party ~ Left Hand Brewery Beer Garden",
-    link: "https://www.echocolorado.com/news",
-    active: false,
-    poster: 'images/posters/placeholder.jpg'
-  },
-  {
-    date: "May 28th, 2022",
-    location: "Estes Park, CO",
-    name: "Full Throttle Distillery",
-    link: "https://www.facebook.com/theMightyFines/photos/a.128056302089629/562039912024597",
-    active: false,
-    time: '5pm - 8pm',
-    poster: 'images/posters/2022-5-28.jpg'
-  },
-  {
-    date: "June 4th, 2022",
-    location: "Altona, CO",
-    name: "Private Event",
-    active: false,
-    poster: 'images/posters/2022-6-4.png'
-  },
-  {
-    date: "June 18th, 2022",
-    location: "Longmont, CO",
-    name: "Wibby Brewing",
-    link: "https://www.facebook.com/events/1227315141412371",
-    time: '6pm - 9pm',
-    active: false,
-    poster: 'images/posters/2022-06-18.jpg'
-  },
-  {
-    date: "June 22nd, 2022",
-    location: "Denver, CO",
-    name: "Cervantes Masterpiece ~ Jay Roemer Band, Southbound String Band",
-    link: "https://www.etix.com/ticket/p/3977797/jay-roemer-band-ftmembers-of-hot-buttered-rum-chain-station-wsouthbound-string-band-ftmembers-of-morsel-clay-stunit-denver-cervantesother-side",
-    active: false,
-    time: '7:30pm',
-    poster: 'images/posters/2022-06-22.jpg'
-  },
-  {
-    date: "June 25th, 2022",
-    location: "Littleton, CO",
-    name: "Breckenridge Brewery Farmhouse",
-    link: "https://www.facebook.com/events/342620314611644",
-    active: false,
-    poster: 'images/posters/placeholder.jpg'
-  },
-  {
-    date: "July 23rd, 2022",
-    location: "Rollinsville, CO",
-    name: "Stage Stop Pub",
-    link: "https://www.facebook.com/stagestoppub",
-    active: false,
-    poster: 'images/posters/2022-7-23.png'
-  },
+  // {
+  //   date: "January 22nd, 2022",
+  //   location: "Denver, CO",
+  //   name: "Bloodies & Bluegrass @ Mile High Spirits",
+  //   time: "2pm - 6pm",
+  //   link: "/",
+  //   active: false,
+  //   poster: 'images/posters/2022-1-22.jpg'
+  // },
+  // {
+  //   date: "February 19th, 2022",
+  //   location: "Boulder, CO",
+  //   name: "The Fox Theater",
+  //   time: "Doors @ 8:30pm",
+  //   link: "https://www.axs.com/events/417573/jane-and-matthews-with-graham-good-the-painters-phantom-phare-brandy-tickets?skin=foxtheatre",
+  //   active: false,
+  //   poster: 'images/posters/2022-2-19.jpg'
+  // },
+  // {
+  //   date: "February 25th, 2022",
+  //   location: "Boulder, CO",
+  //   name: "Brandywine Trio @ Kettle & Spoke",
+  //   time: "7pm - 9pm",
+  //   link: "https://www.facebook.com/events/424610889443934",
+  //   active: false,
+  //   poster: 'images/posters/placeholder.jpg'
+  // },
+  // {
+  //   date: "March 11th, 2022",
+  //   location: "Dillon, CO",
+  //   name: "Keystone Winter Bluegrass Weekend",
+  //   time: "Doors @ 6:30pm",
+  //   link: "https://warrenstation.com/event/winterbluegrass2022/",
+  //   active: false,
+  //   poster: 'images/posters/2022-3-11.jpg'
+  // },
+  // {
+  //   date: "March 26th, 2022",
+  //   location: "Denver, CO",
+  //   name: "The Lodge at Wood Boss",
+  //   time: "Doors @ 7:00pm",
+  //   link: "https://www.eventbrite.com/e/high-lonesome-w-brandywine-and-the-mighty-fines-at-the-lodge-tickets-224966840877?fbclid=IwAR2QAz2Fi7fpd3rf34Y2t8wrTCun8OdftoYCTGoZb5IASigZsAmrq4fKCyg",
+  //   active: false,
+  //   poster: 'images/posters/2022-3-26.png',
+  // },
+  // {
+  //   date: "April 15th, 2022",
+  //   location: "Lyons, CO",
+  //   name: "MainStage Brewing",
+  //   time: "6pm - 9pm",
+  //   link: "https://www.mainstagebrewing.com/music/brandywine-the-mighty-fines",
+  //   active: false,
+  //   poster: 'images/posters/2022-4-15.png'
+  // },
+  // {
+  //   date: "April 23th, 2022",
+  //   location: "Lyons, CO",
+  //   name: "FoCoMX ~ Equinox Brewing",
+  //   time: "3pm",
+  //   link: "https://focomx.focoma.org/artists/brandywine-and-mighty-fines",
+  //   active: false,
+  //   poster: 'images/posters/2022-4-23.jpg'
+  // },
+  // {
+  //   date: "April 29th, 2022",
+  //   location: "Jamestown, CO",
+  //   name: "Jamestown Mercantile",
+  //   time: "7pm - 9pm",
+  //   link: "https://www.jamestownmercantile.com/calendar",
+  //   active: false,
+  //   poster: 'images/posters/2022-4-29.jpg'
+  // },
+  // {
+  //   date: "May 1st, 2022",
+  //   location: "Longmont, CO",
+  //   name: "(ECHO) Birthday Party ~ Left Hand Brewery Beer Garden",
+  //   link: "https://www.echocolorado.com/news",
+  //   active: false,
+  //   poster: 'images/posters/placeholder.jpg'
+  // },
+  // {
+  //   date: "May 28th, 2022",
+  //   location: "Estes Park, CO",
+  //   name: "Full Throttle Distillery",
+  //   link: "https://www.facebook.com/theMightyFines/photos/a.128056302089629/562039912024597",
+  //   active: false,
+  //   time: '5pm - 8pm',
+  //   poster: 'images/posters/2022-5-28.jpg'
+  // },
+  // {
+  //   date: "June 4th, 2022",
+  //   location: "Altona, CO",
+  //   name: "Private Event",
+  //   active: false,
+  //   poster: 'images/posters/2022-6-4.png'
+  // },
+  // {
+  //   date: "June 18th, 2022",
+  //   location: "Longmont, CO",
+  //   name: "Wibby Brewing",
+  //   link: "https://www.facebook.com/events/1227315141412371",
+  //   time: '6pm - 9pm',
+  //   active: false,
+  //   poster: 'images/posters/2022-06-18.jpg'
+  // },
+  // {
+  //   date: "June 22nd, 2022",
+  //   location: "Denver, CO",
+  //   name: "Cervantes Masterpiece ~ Jay Roemer Band, Southbound String Band",
+  //   link: "https://www.etix.com/ticket/p/3977797/jay-roemer-band-ftmembers-of-hot-buttered-rum-chain-station-wsouthbound-string-band-ftmembers-of-morsel-clay-stunit-denver-cervantesother-side",
+  //   active: false,
+  //   time: '7:30pm',
+  //   poster: 'images/posters/2022-06-22.jpg'
+  // },
+  // {
+  //   date: "June 25th, 2022",
+  //   location: "Littleton, CO",
+  //   name: "Breckenridge Brewery Farmhouse",
+  //   link: "https://www.facebook.com/events/342620314611644",
+  //   active: false,
+  //   poster: 'images/posters/placeholder.jpg'
+  // },
+  // {
+  //   date: "July 23rd, 2022",
+  //   location: "Rollinsville, CO",
+  //   name: "Stage Stop Pub",
+  //   link: "https://www.facebook.com/stagestoppub",
+  //   active: false,
+  //   poster: 'images/posters/2022-7-23.png'
+  // },
   {
     date: "August 12th, 2022",
     location: "Guffey, CO",
@@ -213,22 +213,22 @@ const shows = [
     active: false,
     poster: 'images/posters/2022-08-12.jpg'
   },
-  {
-    date: "August 16th, 2022",
-    location: "Boulder, CO",
-    name: "Gloo ~ Company Picnic",
-    link: "",
-    active: false,
-    poster: 'images/posters/placeholder.jpg'
-  },
-  {
-    date: "August 26th, 2022",
-    location: "Lafayette, CO",
-    name: "Cellar West ~ Summer Concert Series",
-    link: "https://www.cellarwest.com/events",
-    active: false,
-    poster: 'images/posters/2022-8-26.jpg'
-  },
+  // {
+  //   date: "August 16th, 2022",
+  //   location: "Boulder, CO",
+  //   name: "Gloo ~ Company Picnic",
+  //   link: "",
+  //   active: false,
+  //   poster: 'images/posters/placeholder.jpg'
+  // },
+  // {
+  //   date: "August 26th, 2022",
+  //   location: "Lafayette, CO",
+  //   name: "Cellar West ~ Summer Concert Series",
+  //   link: "https://www.cellarwest.com/events",
+  //   active: false,
+  //   poster: 'images/posters/2022-8-26.jpg'
+  // },
   {
     date: "September 10th, 2022",
     location: "Copper Mountain",
@@ -238,33 +238,33 @@ const shows = [
     time: "12 - 1:30pm",
     poster: 'images/posters/2022-9-10.jpg'
   },
-  {
-    date: "September 11th, 2022",
-    location: "Denver, CO",
-    name: "Number Thirty Eight",
-    link: "https://nmbr38.com/events/6snb7y485ekrtea-l7y3n-x6wmn-9cz9x-emzed-njw22-fmh2l-gz8y9-5r6tf-le2y6-lh5wp-5d9rt-98fr9-2cmhz-2ytkh-ndasd-jd29w-ytkdd-mhjlt-gg936-4wktz-8l7s6-mjaez-ddmhb-6cdmb-t2zey-5cepa-5ma8x-n59k9-smrx4-jk24p",
-    active: false,
-    time: "3pm - 5pm",
-    poster: 'images/posters/placeholder.jpg'
-  },
-  {
-    date: "September 17th, 2022",
-    location: "Palisade, CO",
-    name: "Palisade Brewing Company",
-    link: "https://fb.me/e/3vlSKp4PZ",
-    active: false,
-    time: "7pm",
-    poster: 'images/posters/2022-9-17.jpg'
-  },
-  {
-    date: "October 1st, 2022",
-    location: "Gunbarrel, CO",
-    name: "Beyond the Mountain Brewing Company",
-    link: "https://fb.me/e/1U9S0VDG4",
-    active: false,
-    time: "7pm",
-    poster: 'images/posters/placeholder.jpg'
-  },
+  // {
+  //   date: "September 11th, 2022",
+  //   location: "Denver, CO",
+  //   name: "Number Thirty Eight",
+  //   link: "https://nmbr38.com/events/6snb7y485ekrtea-l7y3n-x6wmn-9cz9x-emzed-njw22-fmh2l-gz8y9-5r6tsf-le2y6-lh5wp-5d9rt-98fr9-2cmhz-2ytkh-ndasd-jd29w-ytkdd-mhjlt-gg936-4wktz-8l7s6-mjaez-ddmhb-6cdmb-t2zey-5cepa-5ma8x-n59k9-smrx4-jk24p",
+  //   active: false,
+  //   time: "3pm - 5pm",
+  //   poster: 'images/posters/placeholder.jpg'
+  // },
+  // {
+  //   date: "September 17th, 2022",
+  //   location: "Palisade, CO",
+  //   name: "Palisade Brewing Company",
+  //   link: "https://fb.me/e/3vlSKp4PZ",
+  //   active: false,
+  //   time: "7pm",
+  //   poster: 'images/posters/2022-9-17.jpg'
+  // },
+  // {
+  //   date: "October 1st, 2022",
+  //   location: "Gunbarrel, CO",
+  //   name: "Beyond the Mountain Brewing Company",
+  //   link: "https://fb.me/e/1U9S0VDG4",
+  //   active: false,
+  //   time: "7pm",
+  //   poster: 'images/posters/placeholder.jpg'
+  // },
   {
     date: "October 8th, 2022",
     location: "Lafayette, CO",
@@ -274,24 +274,74 @@ const shows = [
     time: "6:30pm",
     poster: 'images/posters/2022-10-8.jpg'
   },
-  {
-    date: "October 28th, 2022",
-    location: "Longmont, CO",
-    name: "Oskar Blues Taproom",
-    link: "https://www.facebook.com/events/1057645471566905",
-    active: false,
-    time: "6:30pm - 9pm",
-    poster: 'images/posters/placeholder.jpg'
-  },
+  // {
+  //   date: "October 28th, 2022",
+  //   location: "Longmont, CO",
+  //   name: "Oskar Blues Taproom",
+  //   link: "https://www.facebook.com/events/1057645471566905",
+  //   active: false,
+  //   time: "6:30pm - 9pm",
+  //   poster: 'images/posters/placeholder.jpg'
+  // },
   {
     date: "November 10th, 2022",
     location: "Denver, CO",
     name: "Lions Lair with Tonewood and Foggy Memory Boys",
     link: "https://www.facebook.com/events/1057645471566905",
-    active: true,
+    active: false,
     time: "9pm",
     poster: 'images/posters/2022-11-10.jpg'
   },
+  // {
+  //   date: "December 31st, 2022",
+  //   location: "Boulder, CO",
+  //   name: "A Mighty Holler ~ New Years w/ Elle Michelles Grateful Holler",
+  //   active: false,
+  //   time: "6pm - 8pm",
+  //   poster: 'images/posters/placeholder.jpg'
+  // },
+  // {
+  //   date: "January 4th, 2023",
+  //   location: "Denver, CO",
+  //   name: "Lustre Pearl",
+  //   active: false,
+  //   time: "7:30pm - 10:30pm",
+  //   poster: 'images/posters/placeholder.jpg'
+  // },
+  {
+    date: "February 9th, 2023",
+    location: "Denver, CO",
+    name: "Number 38",
+    time: "8pm - 10pm",
+    link: 'https://nmbr38.com/calendar',
+    active: true,
+    poster: 'images/posters/placeholder.jpg'
+  },
+  {
+    date: "April 20th - 22nd, 2023",
+    location: "Palisade, CO",
+    name: "Palisade Bluegrass Bash",
+    link: 'https://palisadebluegrass.com/',
+    active: true,
+    poster: 'images/posters/2023-4-20.jpg'
+  },
+  {
+    date: "May 11th - 14th, 2023",
+    location: "Aztec, NM",
+    name: "Tico Time Bluegrass Festival",
+    link: 'https://ticotimeresort.ticketspice.com/tico-time-bluegrass-2023',
+    active: true,
+    poster: 'images/posters/2023-5-14.jpg'
+  },
+  {
+    date: "June 14th - 16th, 2023",
+    location: "Estes Park, CO",
+    name: "Snowygrass Music Festival",
+    link: 'https://www.eventbrite.com/e/snowygrass-music-festival-2023-tickets-448958836967',
+    active: true,
+    poster: 'images/posters/2023-7-14.jpg'
+  },
+
 
 ]
 
