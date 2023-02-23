@@ -314,8 +314,61 @@ const shows = [
     name: "Number 38",
     time: "8pm - 10pm",
     link: 'https://nmbr38.com/calendar',
-    active: true,
+    active: false,
     poster: 'images/posters/placeholder.jpg'
+  },
+  {
+    date: "February 24th, 2023",
+    location: "Englewood, CO",
+    name: "Sofar Sounds ~ Secret Show",
+    link: "https://www.sofarsounds.com/events/45630",
+    active: true,
+    time: "8pm - 10pm",
+    poster: 'images/posters/sofar-placeholder.png'
+  },
+  {
+    date: "March 1st, 2023",
+    location: "Longmont, CO",
+    name: "Rosalee's Pizza",
+    link: "https://www.facebook.com/events/2114974738893421",
+    active: true,
+    time: "6pm - 8pm",
+    poster: 'images/posters/placeholder.jpg'
+  },
+  {
+    date: "March 3rd, 2023",
+    location: "Evergreen, CO",
+    name: "The WoodCellar",
+    active: true,
+    link: "https://www.facebook.com/events/995903278056718",
+    time: "7:30pm - 10:30pm",
+    poster: 'images/posters/2023-3-3.jpg'
+  },
+  {
+    date: "March 10th, 2023",
+    location: "Denver, CO",
+    name: "Sofar Sounds ~ Secret Show",
+    active: true,
+    link: "https://www.sofarsounds.com/events/46173",
+    time: "8pm - 10pm",
+    poster: 'images/posters/sofar-placeholder.png'
+  },
+  {
+    date: "March 15th, 2023",
+    location: "Denver, CO",
+    name: "Lustre Pearl",
+    active: true,
+    time: "8pm - 11pm",
+    poster: 'images/posters/placeholder.jpg'
+  },
+  {
+    date: "April 5th, 2023",
+    location: "Lakewood, CO",
+    name: "Sofar Sounds ~ Secret Show",
+    active: true,
+    link: "https://www.sofarsounds.com/events/46770",
+    time: "8pm - 10pm",
+    poster: 'images/posters/sofar-placeholder.png'
   },
   {
     date: "April 20th - 22nd, 2023",
@@ -334,15 +387,64 @@ const shows = [
     poster: 'images/posters/2023-5-14.jpg'
   },
   {
-    date: "June 14th - 16th, 2023",
+    date: "May 20th, 2023",
+    location: "Boulder, CO",
+    name: "Beyond the Mountain Brewing Company",
+    active: true,
+    time: "6pm - 9pm",
+    poster: 'images/posters/placeholder.jpg'
+  },
+  {
+    date: "June 9th, 2023",
+    location: "Lafayette, CO",
+    name: "Lafayette Art Night Out",
+    link: "https://www.lafayetteco.gov/565/Art-Night-Out",
+    active: true,
+    time: "7:30pm - 10:30pm",
+    poster: 'images/posters/placeholder.jpg'
+  },
+  {
+    date: "June 23-25th, 2023",
+    location: "Berthoud, CO",
+    name: "Rail on the River",
+    active: true,
+    time: "TBA",
+    link: "https://www.zeffy.com/en-US/ticketing/884b2895-ec9a-4fc9-ad1a-894a3642924c",
+    poster: 'images/posters/2023-6-22.jpg'
+  },
+  {
+    date: "June 30th, 2023",
+    location: "Lyons, CO",
+    name: "The Rock Garden ~ Summer Friday Concert Series",
+    active: true,
+    time: "6pm - 9pm",
+    poster: 'images/posters/placeholder.jpg'
+  },
+  {
+    date: "July 14th - 16th, 2023",
     location: "Estes Park, CO",
     name: "Snowygrass Music Festival",
     link: 'https://www.eventbrite.com/e/snowygrass-music-festival-2023-tickets-448958836967',
     active: true,
+    time: "Saturday 1pm",
     poster: 'images/posters/2023-7-14.jpg'
   },
-
-
+  {
+    date: "August 3rd, 2023",
+    location: "Golden, CO",
+    name: "Backyard Bluegrass Series at the Columbine",
+    active: true,
+    time: "7pm - 10pm",
+    poster: 'images/posters/2023-8-3.jpg'
+  },
+  {
+    date: "August 9th, 2023",
+    location: "Longmont, CO",
+    name: "Sunflower Farms Summer Concert Series",
+    active: true,
+    time: "5pm - 7:30pm",
+    poster: 'images/posters/placeholder.jpg'
+  },
 ]
 
 module.exports = shows
