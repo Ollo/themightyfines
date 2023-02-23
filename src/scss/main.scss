@@ -115,15 +115,15 @@
 .site-container {
   background: url('/images/mobile-bg.jpeg') no-repeat;
   background-size: contain;
-  background-attachment: fixed;
 
   @include breakpoint('tablet') {
     background: url('/images/bwmf-bookshop.jpeg') no-repeat;
     background-attachment: fixed;
-    background-size: cover;
     background-position: 50% 50%;
   }
-
+  @include breakpoint('desktop') {
+    background-size: cover;
+  }
   .hero {
     line-height: 0;
     display: flex;
@@ -176,8 +176,9 @@
         list-style: none;
         font-weight: bold;
         color: darken($charcoal, 10%);
+
         @include breakpoint('tablet') {
-          font-size: 3rem;
+          font-size: 2.5rem;
         }
 
         a {
@@ -229,13 +230,14 @@
     .bio-text {
       margin: 4rem auto;
       max-width: 80vw;
-      padding: 5rem;
+      padding: 3rem;
       font-size: 2.2rem;
       text-align: center;
       background: rgba(white, 0.7);
 
       @include breakpoint('tablet') {
         max-width: 60vw;
+        padding: 5rem;
       }
     }
 
