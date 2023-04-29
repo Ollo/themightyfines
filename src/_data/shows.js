@@ -308,75 +308,83 @@ const shows = [
   //   time: "7:30pm - 10:30pm",
   //   poster: 'images/posters/placeholder.jpg'
   // },
-  {
-    date: "February 9th, 2023",
-    location: "Denver, CO",
-    name: "Number 38",
-    time: "8pm - 10pm",
-    link: 'https://nmbr38.com/calendar',
-    active: false,
-    poster: 'images/posters/placeholder.jpg'
-  },
-  {
-    date: "February 24th, 2023",
-    location: "Englewood, CO",
-    name: "Sofar Sounds ~ Secret Show",
-    link: "https://www.sofarsounds.com/events/45630",
-    active: true,
-    time: "8pm - 10pm",
-    poster: 'images/posters/sofar-placeholder.png'
-  },
-  {
-    date: "March 1st, 2023",
-    location: "Longmont, CO",
-    name: "Rosalee's Pizza",
-    link: "https://www.facebook.com/events/2114974738893421",
-    active: true,
-    time: "6pm - 8pm",
-    poster: 'images/posters/placeholder.jpg'
-  },
+  // {
+  //   date: "February 9th, 2023",
+  //   location: "Denver, CO",
+  //   name: "Number 38",
+  //   time: "8pm - 10pm",
+  //   link: 'https://nmbr38.com/calendar',
+  //   active: false,
+  //   poster: 'images/posters/placeholder.jpg'
+  // },
+  // {
+  //   date: "February 24th, 2023",
+  //   location: "Englewood, CO",
+  //   name: "Sofar Sounds ~ Secret Show",
+  //   link: "https://www.sofarsounds.com/events/45630",
+  //   active: false,
+  //   time: "8pm - 10pm",
+  //   poster: 'images/posters/sofar-placeholder.png'
+  // },
+  // {
+  //   date: "March 1st, 2023",
+  //   location: "Longmont, CO",
+  //   name: "Rosalee's Pizza",
+  //   link: "https://www.facebook.com/events/2114974738893421",
+  //   active: false,
+  //   time: "6pm - 8pm",
+  //   poster: 'images/posters/placeholder.jpg'
+  // },
   {
     date: "March 3rd, 2023",
     location: "Evergreen, CO",
     name: "The WoodCellar",
-    active: true,
+    active: false,
     link: "https://www.facebook.com/events/995903278056718",
     time: "7:30pm - 10:30pm",
     poster: 'images/posters/2023-3-3.jpg'
   },
-  {
-    date: "March 10th, 2023",
-    location: "Denver, CO",
-    name: "Sofar Sounds ~ Secret Show",
-    active: true,
-    link: "https://www.sofarsounds.com/events/46173",
-    time: "8pm - 10pm",
-    poster: 'images/posters/sofar-placeholder.png'
-  },
-  {
-    date: "March 15th, 2023",
-    location: "Denver, CO",
-    name: "Lustre Pearl",
-    active: true,
-    time: "8pm - 11pm",
-    poster: 'images/posters/placeholder.jpg'
-  },
-  {
-    date: "April 5th, 2023",
-    location: "Lakewood, CO",
-    name: "Sofar Sounds ~ Secret Show",
-    active: true,
-    link: "https://www.sofarsounds.com/events/46770",
-    time: "8pm - 10pm",
-    poster: 'images/posters/sofar-placeholder.png'
-  },
+  // {
+  //   date: "March 10th, 2023",
+  //   location: "Denver, CO",
+  //   name: "Sofar Sounds ~ Secret Show",
+  //   active: false,
+  //   link: "https://www.sofarsounds.com/events/46173",
+  //   time: "8pm - 10pm",
+  //   poster: 'images/posters/sofar-placeholder.png'
+  // },
+  // {
+  //   date: "March 15th, 2023",
+  //   location: "Denver, CO",
+  //   name: "Lustre Pearl",
+  //   active: false,
+  //   time: "8pm - 11pm",
+  //   poster: 'images/posters/placeholder.jpg'
+  // },
+  // {
+  //   date: "April 5th, 2023",
+  //   location: "Lakewood, CO",
+  //   name: "Sofar Sounds ~ Secret Show",
+  //   active: false,
+  //   link: "https://www.sofarsounds.com/events/46770",
+  //   time: "8pm - 10pm",
+  //   poster: 'images/posters/sofar-placeholder.png'
+  // },
   {
     date: "April 20th - 22nd, 2023",
     location: "Palisade, CO",
     name: "Palisade Bluegrass Bash",
     link: 'https://palisadebluegrass.com/',
-    active: true,
+    active: false,
     poster: 'images/posters/2023-4-20.jpg'
+  },
+  {
+    date: "April 30th, 2023",
+    location: "Fort Collins, CO",
+    name: "FoCoMX ~ After Party",
+    link: 'https://focoma.org/focomx',
+    active: true,
+    poster: 'images/posters/2023-4-30.jpg'
   },
   {
     date: "May 11th - 14th, 2023",
@@ -389,10 +397,11 @@ const shows = [
   {
     date: "May 20th, 2023",
     location: "Boulder, CO",
-    name: "Beyond the Mountain Brewing Company",
+    name: "Beyond the Mountain Brewing Company w/ The Grass Project",
     active: true,
+    link: "https://fb.me/e/2eBGGXE7E",
     time: "6pm - 9pm",
-    poster: 'images/posters/placeholder.jpg'
+    poster: 'images/posters/2023-5-20.jpg'
   },
   {
     date: "June 9th, 2023",
@@ -442,8 +451,18 @@ const shows = [
     location: "Longmont, CO",
     name: "Sunflower Farms Summer Concert Series",
     active: true,
+    link: "https://www.sunflowerfarminfo.com/farmstoreandtickets/p/summermusic-0809",
     time: "5pm - 7:30pm",
-    poster: 'images/posters/placeholder.jpg'
+    poster: 'images/posters/2023-8-9.jpg'
+  },
+  {
+    date: "September 20th, 2023",
+    location: "Denver, CO",
+    name: "Hermans Hideaway",
+    active: true,
+    time: "7pm",
+    link: "https://www.facebook.com/events/3402545820011506",
+    poster: 'images/posters/2023-9-20.png'
   },
 ]
 

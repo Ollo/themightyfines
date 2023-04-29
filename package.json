@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/Ollo/themightyfines#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0",
+    "@11ty/eleventy": "^2.0.0",
     "sass": "^1.49.0"
   }
 }
