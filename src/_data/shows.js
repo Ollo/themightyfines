@@ -383,7 +383,7 @@ const shows = [
     location: "Fort Collins, CO",
     name: "FoCoMX ~ After Party",
     link: 'https://focoma.org/focomx',
-    active: true,
+    active: false,
     poster: 'images/posters/2023-4-30.jpg'
   },
   {
@@ -391,7 +391,7 @@ const shows = [
     location: "Aztec, NM",
     name: "Tico Time Bluegrass Festival",
     link: 'https://ticotimeresort.ticketspice.com/tico-time-bluegrass-2023',
-    active: true,
+    active: false,
     poster: 'images/posters/2023-5-14.jpg'
   },
   {
@@ -404,20 +404,47 @@ const shows = [
     poster: 'images/posters/2023-5-20.jpg'
   },
   {
+    date: "May 28th, 2023",
+    location: "Boulder, CO",
+    name: "Boulder Creek Fest",
+    active: true,
+    link: "https://bouldercreekfest.com/schedule/",
+    time: "2pm - 3:30pm",
+    poster: 'images/posters/2023-5-28.jpg'
+  },
+  {
+    date: "May 31st, 2023",
+    location: "Denver, CO",
+    name: "Lustre Pearl ~ Monthly Residency",
+    active: true,
+    link: "https://lustrepearldenver.com/",
+    time: "8pm - 11pm",
+    poster: 'images/posters/residency.jpg'
+  },
+  {
     date: "June 9th, 2023",
     location: "Lafayette, CO",
     name: "Lafayette Art Night Out",
     link: "https://www.lafayetteco.gov/565/Art-Night-Out",
     active: true,
     time: "7:30pm - 10:30pm",
-    poster: 'images/posters/placeholder.jpg'
+    poster: 'images/posters/2023-6-9.png'
   },
   {
-    date: "June 23-25th, 2023",
+    date: "June 19th, 2023",
+    location: "Denver, CO",
+    name: "Lustre Pearl ~ Monthly Residency",
+    active: true,
+    link: "https://lustrepearldenver.com/",
+    time: "8pm - 11pm",
+    poster: 'images/posters/residency.jpg'
+  },
+  {
+    date: "June 24th, 2023",
     location: "Berthoud, CO",
     name: "Rail on the River",
     active: true,
-    time: "TBA",
+    time: "12:30pm - 1:45pm",
     link: "https://www.zeffy.com/en-US/ticketing/884b2895-ec9a-4fc9-ad1a-894a3642924c",
     poster: 'images/posters/2023-6-22.jpg'
   },
@@ -439,6 +466,15 @@ const shows = [
     poster: 'images/posters/2023-7-14.jpg'
   },
   {
+    date: "July 19th, 2023",
+    location: "Denver, CO",
+    name: "Lustre Pearl ~ Monthly Residency",
+    active: true,
+    link: "https://lustrepearldenver.com/",
+    time: "8pm - 11pm",
+    poster: 'images/posters/residency.jpg'
+  },
+  {
     date: "August 3rd, 2023",
     location: "Golden, CO",
     name: "Backyard Bluegrass Series at the Columbine",
@@ -456,6 +492,33 @@ const shows = [
     poster: 'images/posters/2023-8-9.jpg'
   },
   {
+    date: "August 18th, 2023",
+    location: "Lyons, CO",
+    name: "Mainstage Brewing Company ~ Summer Concert Series",
+    active: true,
+    link: "https://www.facebook.com/mainstagebrewing/posts/pfbid0mctSK9xSLAP79NuPGN2dMveZgSpn2exadsh6MwQb37ZJsi4QdimgnqZrAva8qg1gl",
+    time: "6pm - 9pm",
+    poster: 'images/posters/2023-8-18.jpg'
+  },
+  {
+    date: "August 25th, 2023",
+    location: "Broomfield, CO",
+    name: "Wonderland Brewing Company",
+    active: true,
+    link: "https://www.facebook.com/WonderlandBrewingCo/events/?ref=page_internal",
+    time: "6:30pm - 9pm",
+    poster: 'images/posters/2023-8-25.jpg'
+  },
+  {
+    date: "August 30th, 2023",
+    location: "Denver, CO",
+    name: "Lustre Pearl ~ Monthly Residency",
+    active: true,
+    link: "https://lustrepearldenver.com/",
+    time: "8pm - 11pm",
+    poster: 'images/posters/residency.jpg'
+  },
+  {
     date: "September 20th, 2023",
     location: "Denver, CO",
     name: "Hermans Hideaway",
@@ -463,6 +526,33 @@ const shows = [
     time: "7pm",
     link: "https://www.facebook.com/events/3402545820011506",
     poster: 'images/posters/2023-9-20.png'
+  },
+  {
+    date: "September 29th, 2023",
+    location: "Evergreen, CO",
+    name: "The Woodceller",
+    active: true,
+    time: "8pm",
+    link: "https://www.thewoodcellar.net/",
+    poster: 'images/posters/placeholder.jpg'
+  },
+  {
+    date: "October 7th, 2023",
+    location: "Lone Tree, CO",
+    name: "Craftoberfest",
+    active: true,
+    time: "3:30pm - 5pm",
+    link: "https://cityoflonetree.com/cityevents/craftoberfest/",
+    poster: 'images/posters/2023-10-7.png'
+  },
+  {
+    date: "October 14th, 2023",
+    location: "Rollinsville, CO",
+    name: "Howlin Wind Brewing & Blending",
+    active: true,
+    time: "6pm",
+    link: "https://www.howlinwindbrewing.com/events/",
+    poster: 'images/posters/2023-10-14.jpg'
   },
 ]
 
