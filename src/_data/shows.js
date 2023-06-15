@@ -398,7 +398,7 @@ const shows = [
     date: "May 20th, 2023",
     location: "Boulder, CO",
     name: "Beyond the Mountain Brewing Company w/ The Grass Project",
-    active: true,
+    active: false,
     link: "https://fb.me/e/2eBGGXE7E",
     time: "6pm - 9pm",
     poster: 'images/posters/2023-5-20.jpg'
@@ -407,26 +407,26 @@ const shows = [
     date: "May 28th, 2023",
     location: "Boulder, CO",
     name: "Boulder Creek Fest",
-    active: true,
+    active: false,
     link: "https://bouldercreekfest.com/schedule/",
     time: "2pm - 3:30pm",
     poster: 'images/posters/2023-5-28.jpg'
   },
-  {
-    date: "May 31st, 2023",
-    location: "Denver, CO",
-    name: "Lustre Pearl ~ Monthly Residency",
-    active: true,
-    link: "https://lustrepearldenver.com/",
-    time: "8pm - 11pm",
-    poster: 'images/posters/residency.jpg'
-  },
+  // {
+  //   date: "May 31st, 2023",
+  //   location: "Denver, CO",
+  //   name: "Lustre Pearl ~ Monthly Residency",
+  //   active: false,
+  //   link: "https://lustrepearldenver.com/",
+  //   time: "8pm - 11pm",
+  //   poster: 'images/posters/residency.jpg'
+  // },
   {
     date: "June 9th, 2023",
     location: "Lafayette, CO",
     name: "Lafayette Art Night Out",
     link: "https://www.lafayetteco.gov/565/Art-Night-Out",
-    active: true,
+    active: false,
     time: "7:30pm - 10:30pm",
     poster: 'images/posters/2023-6-9.png'
   },
