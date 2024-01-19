@@ -448,14 +448,14 @@ const shows = [
     link: "https://www.zeffy.com/en-US/ticketing/884b2895-ec9a-4fc9-ad1a-894a3642924c",
     poster: 'images/posters/2023-6-22.jpg'
   },
-  {
-    date: "June 30th, 2023",
-    location: "Lyons, CO",
-    name: "The Rock Garden ~ Summer Friday Concert Series",
-    active: false,
-    time: "6pm - 9pm",
-    poster: 'images/posters/placeholder.jpg'
-  },
+  // {
+  //   date: "June 30th, 2023",
+  //   location: "Lyons, CO",
+  //   name: "The Rock Garden ~ Summer Friday Concert Series",
+  //   active: false,
+  //   time: "6pm - 9pm",
+  //   poster: 'images/posters/placeholder.jpg'
+  // },
   {
     date: "July 14th - 16th, 2023",
     location: "Estes Park, CO",
@@ -500,15 +500,15 @@ const shows = [
     time: "6pm - 9pm",
     poster: 'images/posters/2023-8-18.jpg'
   },
-  {
-    date: "August 25th, 2023",
-    location: "Broomfield, CO",
-    name: "Wonderland Brewing Company",
-    active: false,
-    link: "https://www.facebook.com/WonderlandBrewingCo/events/?ref=page_internal",
-    time: "6:30pm - 9pm",
-    poster: 'images/posters/2023-8-25.jpg'
-  },
+  // {
+  //   date: "August 25th, 2023",
+  //   location: "Broomfield, CO",
+  //   name: "Wonderland Brewing Company",
+  //   active: false,
+  //   link: "https://www.facebook.com/WonderlandBrewingCo/events/?ref=page_internal",
+  //   time: "6:30pm - 9pm",
+  //   poster: 'images/posters/2023-8-25.jpg'
+  // },
   // {
   //   date: "August 30th, 2023",
   //   location: "Denver, CO",
@@ -527,15 +527,15 @@ const shows = [
     link: "https://www.facebook.com/events/3402545820011506",
     poster: 'images/posters/2023-9-20.png'
   },
-  {
-    date: "September 29th, 2023",
-    location: "Evergreen, CO",
-    name: "The Woodceller",
-    active: false,
-    time: "8pm",
-    link: "https://www.thewoodcellar.net/",
-    poster: 'images/posters/placeholder.jpg'
-  },
+  // {
+  //   date: "September 29th, 2023",
+  //   location: "Evergreen, CO",
+  //   name: "The Woodceller",
+  //   active: false,
+  //   time: "8pm",
+  //   link: "https://www.thewoodcellar.net/",
+  //   poster: 'images/posters/placeholder.jpg'
+  // },
   {
     date: "October 7th, 2023",
     location: "Lone Tree, CO",
@@ -545,15 +545,15 @@ const shows = [
     link: "https://cityoflonetree.com/cityevents/craftoberfest/",
     poster: 'images/posters/2023-10-7.png'
   },
-  {
-    date: "October 14th, 2023",
-    location: "Rollinsville, CO",
-    name: "Howlin Wind Brewing & Blending",
-    active: false,
-    time: "6pm",
-    link: "https://www.howlinwindbrewing.com/events/",
-    poster: 'images/posters/2023-10-14.jpg'
-  },
+  // {
+  //   date: "October 14th, 2023",
+  //   location: "Rollinsville, CO",
+  //   name: "Howlin Wind Brewing & Blending",
+  //   active: false,
+  //   time: "6pm",
+  //   link: "https://www.howlinwindbrewing.com/events/",
+  //   poster: 'images/posters/2023-10-14.jpg'
+  // },
   {
     date: "January 25th, 2023",
     location: "Boulder, CO",
