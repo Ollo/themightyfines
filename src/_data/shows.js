@@ -430,20 +430,20 @@ const shows = [
     time: "7:30pm - 10:30pm",
     poster: 'images/posters/2023-6-9.png'
   },
-  {
-    date: "June 19th, 2023",
-    location: "Denver, CO",
-    name: "Lustre Pearl ~ Monthly Residency",
-    active: true,
-    link: "https://lustrepearldenver.com/",
-    time: "8pm - 11pm",
-    poster: 'images/posters/residency.jpg'
-  },
+  // {
+  //   date: "June 19th, 2023",
+  //   location: "Denver, CO",
+  //   name: "Lustre Pearl ~ Monthly Residency",
+  //   active: true,
+  //   link: "https://lustrepearldenver.com/",
+  //   time: "8pm - 11pm",
+  //   poster: 'images/posters/residency.jpg'
+  // },
   {
     date: "June 24th, 2023",
     location: "Berthoud, CO",
     name: "Rail on the River",
-    active: true,
+    active: false,
     time: "12:30pm - 1:45pm",
     link: "https://www.zeffy.com/en-US/ticketing/884b2895-ec9a-4fc9-ad1a-894a3642924c",
     poster: 'images/posters/2023-6-22.jpg'
@@ -452,7 +452,7 @@ const shows = [
     date: "June 30th, 2023",
     location: "Lyons, CO",
     name: "The Rock Garden ~ Summer Friday Concert Series",
-    active: true,
+    active: false,
     time: "6pm - 9pm",
     poster: 'images/posters/placeholder.jpg'
   },
@@ -461,24 +461,24 @@ const shows = [
     location: "Estes Park, CO",
     name: "Snowygrass Music Festival",
     link: 'https://www.eventbrite.com/e/snowygrass-music-festival-2023-tickets-448958836967',
-    active: true,
+    active: false,
     time: "Saturday 1pm",
     poster: 'images/posters/2023-7-14.jpg'
   },
-  {
-    date: "July 19th, 2023",
-    location: "Denver, CO",
-    name: "Lustre Pearl ~ Monthly Residency",
-    active: true,
-    link: "https://lustrepearldenver.com/",
-    time: "8pm - 11pm",
-    poster: 'images/posters/residency.jpg'
-  },
+  // {
+  //   date: "July 19th, 2023",
+  //   location: "Denver, CO",
+  //   name: "Lustre Pearl ~ Monthly Residency",
+  //   active: true,
+  //   link: "https://lustrepearldenver.com/",
+  //   time: "8pm - 11pm",
+  //   poster: 'images/posters/residency.jpg'
+  // },
   {
     date: "August 3rd, 2023",
     location: "Golden, CO",
     name: "Backyard Bluegrass Series at the Columbine",
-    active: true,
+    active: false,
     time: "7pm - 10pm",
     poster: 'images/posters/2023-8-3.jpg'
   },
@@ -486,7 +486,7 @@ const shows = [
     date: "August 9th, 2023",
     location: "Longmont, CO",
     name: "Sunflower Farms Summer Concert Series",
-    active: true,
+    active: false,
     link: "https://www.sunflowerfarminfo.com/farmstoreandtickets/p/summermusic-0809",
     time: "5pm - 7:30pm",
     poster: 'images/posters/2023-8-9.jpg'
@@ -495,7 +495,7 @@ const shows = [
     date: "August 18th, 2023",
     location: "Lyons, CO",
     name: "Mainstage Brewing Company ~ Summer Concert Series",
-    active: true,
+    active: false,
     link: "https://www.facebook.com/mainstagebrewing/posts/pfbid0mctSK9xSLAP79NuPGN2dMveZgSpn2exadsh6MwQb37ZJsi4QdimgnqZrAva8qg1gl",
     time: "6pm - 9pm",
     poster: 'images/posters/2023-8-18.jpg'
@@ -504,25 +504,25 @@ const shows = [
     date: "August 25th, 2023",
     location: "Broomfield, CO",
     name: "Wonderland Brewing Company",
-    active: true,
+    active: false,
     link: "https://www.facebook.com/WonderlandBrewingCo/events/?ref=page_internal",
     time: "6:30pm - 9pm",
     poster: 'images/posters/2023-8-25.jpg'
   },
-  {
-    date: "August 30th, 2023",
-    location: "Denver, CO",
-    name: "Lustre Pearl ~ Monthly Residency",
-    active: true,
-    link: "https://lustrepearldenver.com/",
-    time: "8pm - 11pm",
-    poster: 'images/posters/residency.jpg'
-  },
+  // {
+  //   date: "August 30th, 2023",
+  //   location: "Denver, CO",
+  //   name: "Lustre Pearl ~ Monthly Residency",
+  //   active: true,
+  //   link: "https://lustrepearldenver.com/",
+  //   time: "8pm - 11pm",
+  //   poster: 'images/posters/residency.jpg'
+  // },
   {
     date: "September 20th, 2023",
     location: "Denver, CO",
     name: "Hermans Hideaway",
-    active: true,
+    active: false,
     time: "7pm",
     link: "https://www.facebook.com/events/3402545820011506",
     poster: 'images/posters/2023-9-20.png'
@@ -531,7 +531,7 @@ const shows = [
     date: "September 29th, 2023",
     location: "Evergreen, CO",
     name: "The Woodceller",
-    active: true,
+    active: false,
     time: "8pm",
     link: "https://www.thewoodcellar.net/",
     poster: 'images/posters/placeholder.jpg'
@@ -540,7 +540,7 @@ const shows = [
     date: "October 7th, 2023",
     location: "Lone Tree, CO",
     name: "Craftoberfest",
-    active: true,
+    active: false,
     time: "3:30pm - 5pm",
     link: "https://cityoflonetree.com/cityevents/craftoberfest/",
     poster: 'images/posters/2023-10-7.png'
@@ -549,10 +549,28 @@ const shows = [
     date: "October 14th, 2023",
     location: "Rollinsville, CO",
     name: "Howlin Wind Brewing & Blending",
-    active: true,
+    active: false,
     time: "6pm",
     link: "https://www.howlinwindbrewing.com/events/",
     poster: 'images/posters/2023-10-14.jpg'
+  },
+  {
+    date: "January 25th, 2023",
+    location: "Boulder, CO",
+    name: "The Velvet Elk with Arkansauce",
+    active: true,
+    time: "8pm",
+    link: "https://www.etix.com/ticket/p/69703213/arkansauce-with-brandywine-and-the-mighty-fines-boulder-velvet-elk-lounge?_gl=1*4hlss5*_ga*NDk2Mjk0OTUwLjE3MDU3MDY4MTM.*_ga_X4SJGPT5ZN*MTcwNTcwNjgxMy4xLjAuMTcwNTcwNjgxMy4wLjAuMA..",
+    poster: 'images/posters/2024-1-25.jpg'
+  },
+  {
+    date: "February 3rd, 2024",
+    location: "Keystone, CO",
+    name: "High Country Hootenanny",
+    active: true,
+    time: "6:30pm",
+    link: "https://www.tixr.com/groups/warrenstation/events/high-country-hootenanny-83526?fbclid=IwAR3OT4SZe-ArBeelWxwTsSKm1mRD_qpceVJtSTEKDibFu2vNkXQW_hRLqNk",
+    poster: 'images/posters/2024-2-3.jpg'
   },
 ]
 

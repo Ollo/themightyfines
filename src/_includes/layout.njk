@@ -76,8 +76,8 @@
         <section id="shows" class='panel'>
           <h1>Upcoming Shows</h1>
 
-          {% for show in shows %}
-          {% if show.active %}
+          {% for show in shows | reverse %}
+          {% if show.active === true %}
 
           <article class='show'>
             <figure class='poster'>
