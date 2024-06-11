@@ -58,8 +58,8 @@
       <nav>
         <ul>
           <li><a href="#bio">About</a></li>
-          <li><a href="#shows">Upcoming Shows</a></li>
           <li><a href="#media">Media</a></li>
+          <li><a href="#shows">Upcoming Shows</a></li>
           <li><a href="#book-us">Book Us</a></li>
         </ul>
       </nav>
@@ -67,13 +67,46 @@
       <div>
         <section id='bio' class='panel'>
           <div class='bio-text'>
-            <p>A lively cross between bluegrass, country, and Americana, Brandywine and the Mighty Fines connects to audiences through thoughtful songwriting and clever mashups. Playing a mix of originals and classics from the Dead to Dolly, the Mighty Fines will find you shuffling your feet and daydreaming of other times and places.</p>
+            <p>A lively cross between roots, Americana, and bluegrass, Brandywine and the Mighty Fines, connects to audiences through thoughtful songwriting and clever mashups. Playing a mix of originals and classics from bands such as the Grateful Dead and the Rolling Stones to Dolly Parton, the Mighty Fines charm listeners with their authentic presence and vocally driven music.</p>
 
-            <p>Born out of small town America and coming together through the Foothills, Brandy Ray (vocals, lyrics, mandolin), Matthew Schexnyder (vocals, lyrics, guitar), Joshua Ray (vocals, lyrics, guitar), and Keith Summers (vocals, banjo, bass) charm listeners with their authentic presence and vocally driven bluegrass.</p>
+            <p>Formed in the Foothills of Colorado, Brandy Ray (vocals, lyrics, mandolin), Matthew Schexnyder (vocals, lyrics, guitar), Joshua Ray (vocals, lyrics, guitar), Maya Fabrikant (vocals, fiddle) and Joe Gibb ( bass ) bring multiple years of performance, chemistry, and songwriting to their music which delights audiences with both high energy grooves and heartfelt tunes.</p>
           </div>
         </section>
 
-        <section id="shows" class='panel'>
+        <section id="media" class="panel">
+          <div class='grid'>
+            <div class='videos'>
+              <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Jb1s98und9Y?si=NCeQA_E08vLMPQ1Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
+              </div>
+              <div class="video-container">
+                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/tYhU-3aigUg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+
+              <div class="video-container">
+                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/IFCAH30OmzE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="video-container">
+                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/2TXkNuFTFDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+
+            <div class='playlist'>
+
+              <iframe src="https://open.spotify.com/embed/artist/4JNSV7cx4HavBz661ABoRr?utm_source=generator&theme=0" width="100%" height="175px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+              <div class="fb-page"
+                data-href="https://www.facebook.com/theMightyFines"
+                data-width="380"
+                data-hide-cover="false"
+                data-show-facepile="false">
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+<section id="shows" class='panel'>
           <h1>Upcoming Shows</h1>
 
           {% for show in shows | reverse %}
@@ -121,35 +154,6 @@
 
         </section>
 
-        <section id="media" class="panel">
-          <div class='grid'>
-            <div class='videos'>
-              <div class="video-container">
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/tYhU-3aigUg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
-
-              <div class="video-container">
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/IFCAH30OmzE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
-              <div class="video-container">
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/2TXkNuFTFDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
-            </div>
-
-            <div class='playlist'>
-
-              <iframe src="https://open.spotify.com/embed/artist/4JNSV7cx4HavBz661ABoRr?utm_source=generator&theme=0" width="100%" height="175px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-
-              <div class="fb-page"
-                data-href="https://www.facebook.com/theMightyFines"
-                data-width="380"
-                data-hide-cover="false"
-                data-show-facepile="false">
-              </div>
-
-            </div>
-          </div>
-        </section>
 
         <section id="book-us" class='panel'>
           <div class="contact-form">
