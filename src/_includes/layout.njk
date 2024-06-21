@@ -106,52 +106,24 @@
           </div>
         </section>
 
-<section id="shows" class='panel'>
+        <section id="shows" class='panel'>
           <h1>Upcoming Shows</h1>
 
-          {% for show in shows | reverse %}
+          <article class='shows'>
+          {% for show in shows %}
           {% if show.active === true %}
-
-          <article class='show'>
-            <figure class='poster'>
-              <img src={{ show.poster }} />
-            </figure>
             <div class='details'>
-              <h2>{{ show.name }}</h2>
-              <p>{{ show.location }}</p>
-              <p>{{ show.date }}</p>
-              <p>{{ show.time }}</p>
+              <strong>{{ show.name }} ~ </strong>
+              <span>{{ show.location }} ~ </span>
+              <span>{{ show.date }}</span>
               {% if show.link !== undefined %}
-                <p><a class='button' href='{{ show.link }}' target='_blank' rel='noopener noreferrer'>Details</a></p>
+                <span><a href='{{ show.link }}' target='_blank' rel='noopener noreferrer'>tickets</a></span>
               {% endif %}
-            <div>
-          </article>
-          {% endif %}
-          {% endfor %}
+            </div>
 
-          <h3>Some fun previous shows</h3>
-
-          {% for show in shows | reverse %}
-          {% if show.active === false %}
-          <article class='show history'>
-            <figure class='poster'>
-              <img src={{ show.poster }} />
-            </figure>
-            <div class='details'>
-              <h2>{{ show.name }}</h2>
-              <p>{{ show.location }}</p>
-              <p>{{ show.date }}</p>
-              <p>{{ show.time }}</p>
-              {% if show.link !== undefined %}
-                <p><a class='button' href='{{ show.link }}' target='_blank' rel='noopener noreferrer'>Details</a></p>
-              {% endif %}
-            <div>
-          </article>
           {% endif %}
           {% endfor %}
           </article>
-
-
         </section>
 
 

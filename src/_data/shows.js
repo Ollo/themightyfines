@@ -205,14 +205,14 @@ const shows = [
   //   active: false,
   //   poster: 'images/posters/2022-7-23.png'
   // },
-  {
-    date: "August 12th, 2022",
-    location: "Guffey, CO",
-    name: "Humm Family Gathering",
-    link: "https://hummfamilygathering.ticketleap.com/2022/?fbclid=IwAR2_0C2dreRI0zWLNcCgblCb0dFblxVKG59gQLk1EmMBSCvUTLuYR-gvJDw",
-    active: false,
-    poster: 'images/posters/2022-08-12.jpg'
-  },
+  // {
+  //   date: "August 12th, 2022",
+  //   location: "Guffey, CO",
+  //   name: "Humm Family Gathering",
+  //   link: "https://hummfamilygathering.ticketleap.com/2022/?fbclid=IwAR2_0C2dreRI0zWLNcCgblCb0dFblxVKG59gQLk1EmMBSCvUTLuYR-gvJDw",
+  //   active: false,
+  //   poster: 'images/posters/2022-08-12.jpg'
+  // },
   // {
   //   date: "August 16th, 2022",
   //   location: "Boulder, CO",
@@ -229,15 +229,15 @@ const shows = [
   //   active: false,
   //   poster: 'images/posters/2022-8-26.jpg'
   // },
-  {
-    date: "September 10th, 2022",
-    location: "Copper Mountain",
-    name: "Union Peak Festival",
-    link: "https://www.coppercolorado.com/things-to-do/events/union-peak-festival?fbclid=IwAR2gR-GqvIGCcCcM1PCJ9rccMOtJsy_XxlZsTI2wFmr6Bco5FzFKDn8Y7No",
-    active: false,
-    time: "12 - 1:30pm",
-    poster: 'images/posters/2022-9-10.jpg'
-  },
+  // {
+  //   date: "September 10th, 2022",
+  //   location: "Copper Mountain",
+  //   name: "Union Peak Festival",
+  //   link: "https://www.coppercolorado.com/things-to-do/events/union-peak-festival?fbclid=IwAR2gR-GqvIGCcCcM1PCJ9rccMOtJsy_XxlZsTI2wFmr6Bco5FzFKDn8Y7No",
+  //   active: false,
+  //   time: "12 - 1:30pm",
+  //   poster: 'images/posters/2022-9-10.jpg'
+  // },
   // {
   //   date: "September 11th, 2022",
   //   location: "Denver, CO",
@@ -265,15 +265,15 @@ const shows = [
   //   time: "7pm",
   //   poster: 'images/posters/placeholder.jpg'
   // },
-  {
-    date: "October 8th, 2022",
-    location: "Lafayette, CO",
-    name: "Lafayette Music Fest",
-    link: "https://fb.me/e/1U9S0VDG4",
-    active: false,
-    time: "6:30pm",
-    poster: 'images/posters/2022-10-8.jpg'
-  },
+  // {
+  //   date: "October 8th, 2022",
+  //   location: "Lafayette, CO",
+  //   name: "Lafayette Music Fest",
+  //   link: "https://fb.me/e/1U9S0VDG4",
+  //   active: false,
+  //   time: "6:30pm",
+  //   poster: 'images/posters/2022-10-8.jpg'
+  // },
   // {
   //   date: "October 28th, 2022",
   //   location: "Longmont, CO",
@@ -283,15 +283,15 @@ const shows = [
   //   time: "6:30pm - 9pm",
   //   poster: 'images/posters/placeholder.jpg'
   // },
-  {
-    date: "November 10th, 2022",
-    location: "Denver, CO",
-    name: "Lions Lair with Tonewood and Foggy Memory Boys",
-    link: "https://www.facebook.com/events/1057645471566905",
-    active: false,
-    time: "9pm",
-    poster: 'images/posters/2022-11-10.jpg'
-  },
+  // {
+  //   date: "November 10th, 2022",
+  //   location: "Denver, CO",
+  //   name: "Lions Lair with Tonewood and Foggy Memory Boys",
+  //   link: "https://www.facebook.com/events/1057645471566905",
+  //   active: false,
+  //   time: "9pm",
+  //   poster: 'images/posters/2022-11-10.jpg'
+  // },
   // {
   //   date: "December 31st, 2022",
   //   location: "Boulder, CO",
@@ -335,15 +335,15 @@ const shows = [
   //   time: "6pm - 8pm",
   //   poster: 'images/posters/placeholder.jpg'
   // },
-  {
-    date: "March 3rd, 2023",
-    location: "Evergreen, CO",
-    name: "The WoodCellar",
-    active: false,
-    link: "https://www.facebook.com/events/995903278056718",
-    time: "7:30pm - 10:30pm",
-    poster: 'images/posters/2023-3-3.jpg'
-  },
+  // {
+  //   date: "March 3rd, 2023",
+  //   location: "Evergreen, CO",
+  //   name: "The WoodCellar",
+  //   active: false,
+  //   link: "https://www.facebook.com/events/995903278056718",
+  //   time: "7:30pm - 10:30pm",
+  //   poster: 'images/posters/2023-3-3.jpg'
+  // },
   // {
   //   date: "March 10th, 2023",
   //   location: "Denver, CO",
@@ -370,48 +370,48 @@ const shows = [
   //   time: "8pm - 10pm",
   //   poster: 'images/posters/sofar-placeholder.png'
   // },
-  {
-    date: "April 20th - 22nd, 2023",
-    location: "Palisade, CO",
-    name: "Palisade Bluegrass Bash",
-    link: 'https://palisadebluegrass.com/',
-    active: false,
-    poster: 'images/posters/2023-4-20.jpg'
-  },
-  {
-    date: "April 30th, 2023",
-    location: "Fort Collins, CO",
-    name: "FoCoMX ~ After Party",
-    link: 'https://focoma.org/focomx',
-    active: false,
-    poster: 'images/posters/2023-4-30.jpg'
-  },
-  {
-    date: "May 11th - 14th, 2023",
-    location: "Aztec, NM",
-    name: "Tico Time Bluegrass Festival",
-    link: 'https://ticotimeresort.ticketspice.com/tico-time-bluegrass-2023',
-    active: false,
-    poster: 'images/posters/2023-5-14.jpg'
-  },
-  {
-    date: "May 20th, 2023",
-    location: "Boulder, CO",
-    name: "Beyond the Mountain Brewing Company w/ The Grass Project",
-    active: false,
-    link: "https://fb.me/e/2eBGGXE7E",
-    time: "6pm - 9pm",
-    poster: 'images/posters/2023-5-20.jpg'
-  },
-  {
-    date: "May 28th, 2023",
-    location: "Boulder, CO",
-    name: "Boulder Creek Fest",
-    active: false,
-    link: "https://bouldercreekfest.com/schedule/",
-    time: "2pm - 3:30pm",
-    poster: 'images/posters/2023-5-28.jpg'
-  },
+  // {
+  //   date: "April 20th - 22nd, 2023",
+  //   location: "Palisade, CO",
+  //   name: "Palisade Bluegrass Bash",
+  //   link: 'https://palisadebluegrass.com/',
+  //   active: false,
+  //   poster: 'images/posters/2023-4-20.jpg'
+  // },
+  // {
+  //   date: "April 30th, 2023",
+  //   location: "Fort Collins, CO",
+  //   name: "FoCoMX ~ After Party",
+  //   link: 'https://focoma.org/focomx',
+  //   active: false,
+  //   poster: 'images/posters/2023-4-30.jpg'
+  // },
+  // {
+  //   date: "May 11th - 14th, 2023",
+  //   location: "Aztec, NM",
+  //   name: "Tico Time Bluegrass Festival",
+  //   link: 'https://ticotimeresort.ticketspice.com/tico-time-bluegrass-2023',
+  //   active: false,
+  //   poster: 'images/posters/2023-5-14.jpg'
+  // },
+  // {
+  //   date: "May 20th, 2023",
+  //   location: "Boulder, CO",
+  //   name: "Beyond the Mountain Brewing Company w/ The Grass Project",
+  //   active: false,
+  //   link: "https://fb.me/e/2eBGGXE7E",
+  //   time: "6pm - 9pm",
+  //   poster: 'images/posters/2023-5-20.jpg'
+  // },
+  // {
+  //   date: "May 28th, 2023",
+  //   location: "Boulder, CO",
+  //   name: "Boulder Creek Fest",
+  //   active: false,
+  //   link: "https://bouldercreekfest.com/schedule/",
+  //   time: "2pm - 3:30pm",
+  //   poster: 'images/posters/2023-5-28.jpg'
+  // },
   // {
   //   date: "May 31st, 2023",
   //   location: "Denver, CO",
@@ -421,15 +421,15 @@ const shows = [
   //   time: "8pm - 11pm",
   //   poster: 'images/posters/residency.jpg'
   // },
-  {
-    date: "June 9th, 2023",
-    location: "Lafayette, CO",
-    name: "Lafayette Art Night Out",
-    link: "https://www.lafayetteco.gov/565/Art-Night-Out",
-    active: false,
-    time: "7:30pm - 10:30pm",
-    poster: 'images/posters/2023-6-9.png'
-  },
+  // {
+  //   date: "June 9th, 2023",
+  //   location: "Lafayette, CO",
+  //   name: "Lafayette Art Night Out",
+  //   link: "https://www.lafayetteco.gov/565/Art-Night-Out",
+  //   active: false,
+  //   time: "7:30pm - 10:30pm",
+  //   poster: 'images/posters/2023-6-9.png'
+  // },
   // {
   //   date: "June 19th, 2023",
   //   location: "Denver, CO",
@@ -439,15 +439,15 @@ const shows = [
   //   time: "8pm - 11pm",
   //   poster: 'images/posters/residency.jpg'
   // },
-  {
-    date: "June 24th, 2023",
-    location: "Berthoud, CO",
-    name: "Rail on the River",
-    active: false,
-    time: "12:30pm - 1:45pm",
-    link: "https://www.zeffy.com/en-US/ticketing/884b2895-ec9a-4fc9-ad1a-894a3642924c",
-    poster: 'images/posters/2023-6-22.jpg'
-  },
+  // {
+  //   date: "June 24th, 2023",
+  //   location: "Berthoud, CO",
+  //   name: "Rail on the River",
+  //   active: false,
+  //   time: "12:30pm - 1:45pm",
+  //   link: "https://www.zeffy.com/en-US/ticketing/884b2895-ec9a-4fc9-ad1a-894a3642924c",
+  //   poster: 'images/posters/2023-6-22.jpg'
+  // },
   // {
   //   date: "June 30th, 2023",
   //   location: "Lyons, CO",
@@ -456,15 +456,15 @@ const shows = [
   //   time: "6pm - 9pm",
   //   poster: 'images/posters/placeholder.jpg'
   // },
-  {
-    date: "July 14th - 16th, 2023",
-    location: "Estes Park, CO",
-    name: "Snowygrass Music Festival",
-    link: 'https://www.eventbrite.com/e/snowygrass-music-festival-2023-tickets-448958836967',
-    active: false,
-    time: "Saturday 1pm",
-    poster: 'images/posters/2023-7-14.jpg'
-  },
+  // {
+  //   date: "July 14th - 16th, 2023",
+  //   location: "Estes Park, CO",
+  //   name: "Snowygrass Music Festival",
+  //   link: 'https://www.eventbrite.com/e/snowygrass-music-festival-2023-tickets-448958836967',
+  //   active: false,
+  //   time: "Saturday 1pm",
+  //   poster: 'images/posters/2023-7-14.jpg'
+  // },
   // {
   //   date: "July 19th, 2023",
   //   location: "Denver, CO",
@@ -474,32 +474,32 @@ const shows = [
   //   time: "8pm - 11pm",
   //   poster: 'images/posters/residency.jpg'
   // },
-  {
-    date: "August 3rd, 2023",
-    location: "Golden, CO",
-    name: "Backyard Bluegrass Series at the Columbine",
-    active: false,
-    time: "7pm - 10pm",
-    poster: 'images/posters/2023-8-3.jpg'
-  },
-  {
-    date: "August 9th, 2023",
-    location: "Longmont, CO",
-    name: "Sunflower Farms Summer Concert Series",
-    active: false,
-    link: "https://www.sunflowerfarminfo.com/farmstoreandtickets/p/summermusic-0809",
-    time: "5pm - 7:30pm",
-    poster: 'images/posters/2023-8-9.jpg'
-  },
-  {
-    date: "August 18th, 2023",
-    location: "Lyons, CO",
-    name: "Mainstage Brewing Company ~ Summer Concert Series",
-    active: false,
-    link: "https://www.facebook.com/mainstagebrewing/posts/pfbid0mctSK9xSLAP79NuPGN2dMveZgSpn2exadsh6MwQb37ZJsi4QdimgnqZrAva8qg1gl",
-    time: "6pm - 9pm",
-    poster: 'images/posters/2023-8-18.jpg'
-  },
+  // {
+  //   date: "August 3rd, 2023",
+  //   location: "Golden, CO",
+  //   name: "Backyard Bluegrass Series at the Columbine",
+  //   active: false,
+  //   time: "7pm - 10pm",
+  //   poster: 'images/posters/2023-8-3.jpg'
+  // },
+  // {
+  //   date: "August 9th, 2023",
+  //   location: "Longmont, CO",
+  //   name: "Sunflower Farms Summer Concert Series",
+  //   active: false,
+  //   link: "https://www.sunflowerfarminfo.com/farmstoreandtickets/p/summermusic-0809",
+  //   time: "5pm - 7:30pm",
+  //   poster: 'images/posters/2023-8-9.jpg'
+  // },
+  // {
+  //   date: "August 18th, 2023",
+  //   location: "Lyons, CO",
+  //   name: "Mainstage Brewing Company ~ Summer Concert Series",
+  //   active: false,
+  //   link: "https://www.facebook.com/mainstagebrewing/posts/pfbid0mctSK9xSLAP79NuPGN2dMveZgSpn2exadsh6MwQb37ZJsi4QdimgnqZrAva8qg1gl",
+  //   time: "6pm - 9pm",
+  //   poster: 'images/posters/2023-8-18.jpg'
+  // },
   // {
   //   date: "August 25th, 2023",
   //   location: "Broomfield, CO",
@@ -518,15 +518,15 @@ const shows = [
   //   time: "8pm - 11pm",
   //   poster: 'images/posters/residency.jpg'
   // },
-  {
-    date: "September 20th, 2023",
-    location: "Denver, CO",
-    name: "Hermans Hideaway",
-    active: false,
-    time: "7pm",
-    link: "https://www.facebook.com/events/3402545820011506",
-    poster: 'images/posters/2023-9-20.png'
-  },
+  // {
+  //   date: "September 20th, 2023",
+  //   location: "Denver, CO",
+  //   name: "Hermans Hideaway",
+  //   active: false,
+  //   time: "7pm",
+  //   link: "https://www.facebook.com/events/3402545820011506",
+  //   poster: 'images/posters/2023-9-20.png'
+  // },
   // {
   //   date: "September 29th, 2023",
   //   location: "Evergreen, CO",
@@ -536,16 +536,16 @@ const shows = [
   //   link: "https://www.thewoodcellar.net/",
   //   poster: 'images/posters/placeholder.jpg'
   // },
-  {
-    date: "October 7th, 2023",
-    location: "Lone Tree, CO",
-    name: "Craftoberfest",
-    active: false,
-    time: "3:30pm - 5pm",
-    link: "https://cityoflonetree.com/cityevents/craftoberfest/",
-    poster: 'images/posters/2023-10-7.png'
-  },
   // {
+  //   date: "October 7th, 2023",
+  //   location: "Lone Tree, CO",
+  //   name: "Craftoberfest",
+  //   active: false,
+  //   time: "3:30pm - 5pm",
+  //   link: "https://cityoflonetree.com/cityevents/craftoberfest/",
+  //   poster: 'images/posters/2023-10-7.png'
+  // },
+  // // {
   //   date: "October 14th, 2023",
   //   location: "Rollinsville, CO",
   //   name: "Howlin Wind Brewing & Blending",
@@ -554,24 +554,76 @@ const shows = [
   //   link: "https://www.howlinwindbrewing.com/events/",
   //   poster: 'images/posters/2023-10-14.jpg'
   // },
+  // {
+  //   date: "January 25th, 2023",
+  //   location: "Boulder, CO",
+  //   name: "The Velvet Elk with Arkansauce",
+  //   active: false,
+  //   time: "8pm",
+  //   link: "https://www.etix.com/ticket/p/69703213/arkansauce-with-brandywine-and-the-mighty-fines-boulder-velvet-elk-lounge?_gl=1*4hlss5*_ga*NDk2Mjk0OTUwLjE3MDU3MDY4MTM.*_ga_X4SJGPT5ZN*MTcwNTcwNjgxMy4xLjAuMTcwNTcwNjgxMy4wLjAuMA..",
+  //   poster: 'images/posters/2024-1-25.jpg'
+  // },
+  // {
+  //   date: "February 3rd, 2024",
+  //   location: "Keystone, CO",
+  //   name: "High Country Hootenanny",
+  //   active: false,
+  //   time: "6:30pm",
+  //   link: "https://www.tixr.com/groups/warrenstation/events/high-country-hootenanny-83526?fbclid=IwAR3OT4SZe-ArBeelWxwTsSKm1mRD_qpceVJtSTEKDibFu2vNkXQW_hRLqNk",
+  //   poster: 'images/posters/2024-2-3.jpg'
+  // },
+  // {
+  //   date: "February 3rd, 2024",
+  //   location: "Keystone, CO",
+  //   name: "High Country Hootenanny",
+  //   active: false,
+  //   time: "6:30pm",
+  //   link: "https://www.tixr.com/groups/warrenstation/events/high-country-hootenanny-83526?fbclid=IwAR3OT4SZe-ArBeelWxwTsSKm1mRD_qpceVJtSTEKDibFu2vNkXQW_hRLqNk",
+  //   poster: 'images/posters/2024-2-3.jpg'
+  // },
   {
-    date: "January 25th, 2023",
-    location: "Boulder, CO",
-    name: "The Velvet Elk with Arkansauce",
+    date: "June 13th, 2024",
+    location: "Golden, CO",
+    name: "Columbine Cafe",
     active: true,
-    time: "8pm",
-    link: "https://www.etix.com/ticket/p/69703213/arkansauce-with-brandywine-and-the-mighty-fines-boulder-velvet-elk-lounge?_gl=1*4hlss5*_ga*NDk2Mjk0OTUwLjE3MDU3MDY4MTM.*_ga_X4SJGPT5ZN*MTcwNTcwNjgxMy4xLjAuMTcwNTcwNjgxMy4wLjAuMA..",
-    poster: 'images/posters/2024-1-25.jpg'
   },
   {
-    date: "February 3rd, 2024",
-    location: "Keystone, CO",
-    name: "High Country Hootenanny",
+    date: "June 15th, 2024",
+    location: "Broomfield, CO",
+    name: "Wonderland Brewing Company",
     active: true,
-    time: "6:30pm",
-    link: "https://www.tixr.com/groups/warrenstation/events/high-country-hootenanny-83526?fbclid=IwAR3OT4SZe-ArBeelWxwTsSKm1mRD_qpceVJtSTEKDibFu2vNkXQW_hRLqNk",
-    poster: 'images/posters/2024-2-3.jpg'
   },
+  {
+    date: "June 21st, 2024",
+    location: "Evergreen, CO",
+    name: "The Woodcellar",
+    active: true,
+  },
+  {
+    date: "June 22nd, 2024",
+    location: "Gunbarrel, CO",
+    name: "Beyond the Mountain | Brandywine Beer Release",
+    active: true,
+  },
+  {
+    date: "July 6th, 2024",
+    location: "South Park, CO",
+    name: "South Park Bluegrass Festival",
+    active: true,
+  },
+  {
+    date: "July 18th, 2024",
+    location: "Denver, CO",
+    name: "Brandywine Trio | Black Buzzard",
+    active: true,
+  },
+  {
+    date: "July 19th, 2024",
+    location: "Gold Hill, CO",
+    name: "Gold Hill Inn",
+    active: true,
+  },
+
 ]
 
 module.exports = shows

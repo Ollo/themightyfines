@@ -76,14 +76,13 @@
   }
 }
 
-.show {
+.shows {
   width: 100%;
   max-width: 60vw;
   text-align: center;
   @include breakpoint('desktop') {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    text-align: left;
+    text-align: center;
   }
   padding: 2rem;
   margin-bottom: 2rem;
@@ -100,6 +99,7 @@
 
   .details {
     grid-column: 3 / span 4;
+    margin-bottom: 2rem;
     a {
       color: $dark-orange;
     }
@@ -113,11 +113,12 @@
 }
 
 .site-container {
-  background: url('/images/mobile-bg.jpeg') no-repeat;
+  // background: url('/images/mobile-bg.jpeg') no-repeat;
+  background: url('/images/laramie-mobile.jpg') no-repeat;
   background-size: contain;
 
   @include breakpoint('tablet') {
-    background: url('/images/bwmf-bookshop.jpeg') no-repeat;
+    background: url('/images/laramie.jpg') no-repeat;
     background-attachment: fixed;
     background-position: 50% 50%;
   }
@@ -131,7 +132,7 @@
     align-items: flex-start;
     margin: 0;
     padding: 0;
-    height: 75vh;
+    height: 50vh;
 
     @include breakpoint('tablet') {
       height: 91vh;
@@ -221,9 +222,10 @@
     }
   }
   .panel {
-    min-height: 90vh;
     display: grid;
     place-items: center;
+    padding: 0 2rem;
+    margin-bottom: 2rem;
   }
 
   #bio {
